@@ -1,0 +1,62 @@
+.Contact {
+  font-size: 2.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 55px;
+}
+
+.form-label {
+  margin: 0;
+}
+
+.contact-form {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.form-text-input {
+  min-width: 190px;
+  min-height: 30px;
+}
+
+input {
+  width: 350px;
+  padding-left: 10px;
+  margin: 0;
+}
+
+textarea {
+  margin-top: 15px;
+  width: 350px;
+  height: 200px;
+  padding: 10px 0 0 10px;
+}
+
+.email {
+  margin-top: 10px;
+}
+
+.message {
+  margin-top: 5px;
+}
+
+.submit-btn {
+  font-size: 1.5rem;
+  padding: 5px 15px;
+  background-color: #e4e3de;
+  border-radius: 5px;
+}
+
+.mobile-break {
+  display: none;
+}
+/*# sourceMappingURL=contact.css.map */

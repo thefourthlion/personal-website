@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  background: rgb(44, 50, 59);
+  text-align: center;
+  color: rgb(44, 50, 59);
+  background-color: rgb(228, 227, 222);
+  overflow-x: hidden;
+}
+body .green {
+  color: #3dd230;
+}
+body .red {
+  color: red !important;
+}
+body .pink {
+  color: #d034d3;
+}
+body a {
+  color: rgb(44, 50, 59);
+}
+body h1 {
+  font-size: 2.5rem;
+}
+body h3 {
+  font-size: 1.5rem;
+}
+body p {
+  font-size: 1.5rem;
+}
+body .svg-all {
+  max-width: 800px;
+}/*# sourceMappingURL=main.css.map */

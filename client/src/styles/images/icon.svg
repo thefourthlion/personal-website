@@ -1,0 +1,5 @@
+<svg width="48" height="48" class="icon" xmlns="http://www.w3.org/2000/svg">
+    <path d="M0 0h48v48H0z" class="icon-path" />
+    <path d="M0 8h48v5.581H0V8Z" class="icon-path" />
+    <path d="M12.465 0v48H6.884V0h5.581Z" class="icon-path" />
+</svg>

@@ -1,0 +1,31 @@
+@import "../Variables/Variables.scss";
+
+.PostProject{
+    padding-top: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    label{
+        font-size: 1.4rem;
+
+    }
+    input{
+        display: block;
+        margin: 10px 0 10px 0;
+        height: 30px;
+
+
+    }
+    textarea{
+        margin: 10px 0 10px 0;
+        display: block;
+    }
+.delete-btn{
+    display: inline;
+}
+button{
+    margin-top: 20px;
+}
+
+    
+}

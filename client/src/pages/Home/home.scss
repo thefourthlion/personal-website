@@ -1,0 +1,32 @@
+.Home {
+  height: 100vh;
+  h3 {
+    margin-bottom: 35px;
+  }
+  .my-img {
+    width: 125px;
+    height: 125px;
+    border-radius: 100px;
+    margin-top: 25vh;
+  }
+
+  .social-logo{
+    width: 42px;
+    height: 42px;
+    margin: 0 10px;
+
+  }
+  .twitter{
+    width: 51px;
+    height: 42px;
+  }
+  // .social-logo:hover{
+  //   -moz-transform: rotate(20deg);
+  //   -webkit-transform: rotate(20deg);
+  //   -o-transform: rotate(20deg);
+  //   -ms-transform: rotate(20deg);
+  //   transform: rotate(20deg);
+  // }
+
+  
+}

@@ -1,0 +1,36 @@
+@import "../Variables/Variables.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  background: $github-gray;
+  text-align: center;
+  color: $github-gray;
+  background-color: $white;
+  overflow-x: hidden;
+  .green {
+    color: $green;
+  }
+  .red {
+    color: red !important;
+  }
+  .pink {
+    color: $pink;
+  }
+  a {
+    color: $github-gray;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p {
+    font-size: 1.5rem;
+  }
+  .svg-all {
+    max-width: 800px;
+  }
+}
