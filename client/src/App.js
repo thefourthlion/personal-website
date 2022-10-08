@@ -1,3 +1,5 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import "./styles//main/main.css";
 import "./styles//CyberButton/cyberbtn.css";
 
@@ -31,8 +33,8 @@ export default function App() {
               </div>
             }
           />
-          <Route exact path="/postProject" element={<PostProject />} />
-          <Route exact path="/ImproveForm" element={<ImproveForm />} />
+          <Route exact path="/enter-project" element={<PostProject />} />
+          <Route exact path="/enter-improvement" element={<ImproveForm />} />
           {/* <Route exact path="/postProject" element={<PostProject />} /> */}
         </Routes>
       </Router>

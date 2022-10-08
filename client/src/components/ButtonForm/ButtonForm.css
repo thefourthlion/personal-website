@@ -1,0 +1,12 @@
+.ButtonForm .buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 25px;
+}
+.ButtonForm button {
+  border-radius: 5px;
+  min-width: 55px;
+  min-height: 55px;
+}/*# sourceMappingURL=ButtonForm.css.map */

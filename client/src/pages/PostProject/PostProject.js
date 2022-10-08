@@ -10,20 +10,20 @@ export default function PostProject() {
   const [projectList, setProjectList] = useState([]);
 
   useEffect(() => {
-    Axios.get("https://everettdeleon.herokuapp.com/projects").then((res) => {
+    Axios.get("http://localhost:3001/api/posts/read").then((res) => {
       setProjectList(res.data);
     });
   }, []);
 
   const deleteProject = (id) => {
-    Axios.delete(`https://everettdeleon.herokuapp.com/delete/${id}`, {});
+    Axios.delete(`http://localhost:3001/delete/${id}`, {});
     setTimeout(() => {
       window.location.reload();
     }, 1000);
   };
 
   const addProject = () => {
-    Axios.post("https://everettdeleon.herokuapp.com/postProject", {
+    Axios.post("http://localhost:3001/api/post/post", {
       title: title,
       projectDescription: projectDescription,
       imageLink: imageLink,

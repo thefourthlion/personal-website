@@ -4,7 +4,7 @@ import Axios from "axios";
 export default function Portfolio() {
   const [projectList, setProjectList] = useState([]);
   useEffect(() => {
-    Axios.get("https://everettdeleon.herokuapp.com/projects").then((res) => {
+    Axios.get("http://localhost:3001/api/posts/read").then((res) => {
       setProjectList(res.data);
     });
   }, []);
