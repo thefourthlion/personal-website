@@ -4,6 +4,7 @@ import Tech from "../components/Tech";
 import Portfolio from "../components/Portfolio";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+
 // import Navbar from "../components/Navigation";
 export default function Home() {
   return (
