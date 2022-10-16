@@ -1,0 +1,27 @@
+.ImproveForm{
+    padding-top: 100px;
+    .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 420px;
+    gap: 25px;
+    }
+    input{
+        min-width: 400px;
+        border-color: whitesmoke;
+    }
+
+    input:focus,hover{
+        box-shadow: none;
+        border-color: #3dd230;
+        outline: none;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    }
+
+    .form-label{
+        margin: 0 auto;
+    }
+}
