@@ -25,6 +25,7 @@ const Spending = () => {
         <div className="amount">
           <p>💸 - Amount</p>
           <input
+            step="any"
             type="number"
             placeholder="$100"
             onChange={(e) => {
@@ -224,7 +225,7 @@ const Spending = () => {
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setStore("Cooperation");
+                  setStore("Trustworthy company");
                 }}
               >
                 😇 - Trustworthy.
@@ -232,7 +233,14 @@ const Spending = () => {
             </Dropdown.Menu>
           </Dropdown>
         </div>
-        <button className="submit-btn">Submit</button>
+        <button
+          className="submit-btn"
+          onClick={() => {
+            postSpend();
+          }}
+        >
+          Submit
+        </button>
         <p className="warning">(please keep recipes)</p>
         <p className="warning">(record all bank notifications)</p>
       </form>
