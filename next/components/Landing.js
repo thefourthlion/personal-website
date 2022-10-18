@@ -16,7 +16,7 @@ export default function Home() {
         />
         <h1 className="name">Everett De Leon</h1>
         <h3 className="description">Full Stack Developer, Web3 Enthusiast</h3>
-        <a href="https://github.com/thefourthlion">
+        <a href="https://github.com/thefourthlion" className="social-a">
           <Image
             lazyRoot={lazyRoot}
             width="42px"
@@ -26,7 +26,7 @@ export default function Home() {
             className="social-logo"
           />
         </a>
-        <a href="https://twitter.com/The_FourthLion">
+        <a href="https://twitter.com/The_FourthLion" className="social-a">
           <Image
             lazyRoot={lazyRoot}
             width="51px"
@@ -36,7 +36,10 @@ export default function Home() {
             className="social-logo twitter"
           />
         </a>
-        <a href="https://www.linkedin.com/in/theforthlion/">
+        <a
+          href="https://www.linkedin.com/in/theforthlion/"
+          className="social-a"
+        >
           <Image
             lazyRoot={lazyRoot}
             width="42px"

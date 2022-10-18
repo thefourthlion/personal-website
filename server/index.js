@@ -4,7 +4,7 @@ const passport = require("passport");
 const app = express();
 const cors = require("cors");
 const PORT = process.env.PORT || 3001;
-const User = require("./models/Users");
+const User = require("./models/user");
 const connectDB = require("./config/mongoose");
 
 // --------------------------------------------(end of imports)------------------------------------------
@@ -53,6 +53,7 @@ app.get("/", (req, res) => {
 app.use("/api/auth", require("./routes/auth"));
 app.use("/api/posts", require("./routes/posts"));
 app.use("/api/money", require("./routes/spends"));
+app.use("/api/money", require("./routes/earn"));
 
 // --------------------------------------------(end of note routes)------------------------------------------
 app.listen(PORT, () => {

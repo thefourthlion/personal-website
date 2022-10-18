@@ -14,8 +14,15 @@ const Spending = () => {
       category: category,
       store: store,
       card: card,
+      timestamp: date,
     });
   };
+
+  const today = new Date();
+  const dd = String(today.getDate()).padStart(2, "0");
+  const mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0!
+  const yyyy = today.getFullYear();
+  const date = mm + "/" + dd + "/" + yyyy;
 
   return (
     <div className="Spending">
@@ -233,6 +240,12 @@ const Spending = () => {
             </Dropdown.Menu>
           </Dropdown>
         </div>
+        <p>
+          Record an earning?{" "}
+          <a href="/earn" className="green">
+            (earn)
+          </a>
+        </p>
         <button
           className="submit-btn"
           onClick={() => {
@@ -241,8 +254,7 @@ const Spending = () => {
         >
           Submit
         </button>
-        <p className="warning">(please keep recipes)</p>
-        <p className="warning">(record all bank notifications)</p>
+        <p className="warning">(bank notifications and recipes)</p>
       </form>
       <h1>
         {cost.length > 0 &&
@@ -250,8 +262,8 @@ const Spending = () => {
           card.length > 0 &&
           store.length > 0 && (
             <h2>
-              Your spending ${cost} on {category} with a {card} card at a{" "}
-              {store}
+              Your spending $<span>{cost}</span> on <span>{category}</span> with
+              a <span>{card}</span> card at a <span>{store}</span>
             </h2>
           )}
       </h1>

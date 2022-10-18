@@ -1,26 +1,26 @@
-const Spend = require("../models/spending");
+const Earning = require("../models/earning");
 
 //--------------------------------------------Create------------------------------------
-exports.createSpend = async (req, res) => {
+exports.addEarning = async (req, res) => {
   try {
-    let spending = new Spend({
-      cost: req.body.cost,
-      category: req.body.category,
-      store: req.body.store,
-      card: req.body.card,
+    let earning = new Earning({
+      amount: req.body.amount,
+      activity: req.body.activity,
+      enjoyment: req.body.enjoyment,
+      deposit: req.body.deposit,
       timestamp: req.body.timestamp,
     });
-    await spending.save();
-    res.send(spending);
+    await earning.save();
+    res.send(earning);
   } catch (err) {
     console.log(err);
   }
 };
 
 //--------------------------------------------Read  ------------------------------------
-exports.readAllSpends = async (req, res) => {
+exports.allMoneyEarned = async (req, res) => {
   try {
-    Spend.find({}, (err, result) => {
+    Earning.find({}, (err, result) => {
       if (err) {
         res.json({ app: err });
       }
@@ -32,9 +32,9 @@ exports.readAllSpends = async (req, res) => {
 };
 
 //-------------------------------------------- Read by id  ------------------------------------
-exports.readSpendFromID = async (req, res) => {
+exports.readEarningByID = async (req, res) => {
   try {
-    await Spend.findById({ _id: req.params.id }, {}, (err, result) => {
+    await Earning.findById({ _id: req.params.id }, {}, (err, result) => {
       if (err) {
         res.json({ app: err });
       }
@@ -47,13 +47,13 @@ exports.readSpendFromID = async (req, res) => {
 
 //-------------------------------------------- Update  ------------------------------------
 
-// exports.updatePost = async (req, res) => {
+// exports.updateEarning = async (req, res) => {
 //   try {
-//     await Spend.findByIdAndUpdate(
+//     await Earning.findByIdAndUpdate(
 //       req.params.id,
 //       {
 //         responded: req.body.responded,
-//         spendings: req.body.spendings,
+//         earnings: req.body.earnings,
 //         quote: req.body.quote,
 //       },
 //       (err, result) => {
@@ -69,12 +69,12 @@ exports.readSpendFromID = async (req, res) => {
 // };
 
 //--------------------------------------------Delete------------------------------------
-exports.deleteSpend = async (req, res) => {
+exports.deleteEarning = async (req, res) => {
   try {
-    if ((await Spend.findById(req.params.id)) === null) {
+    if ((await Earning.findById(req.params.id)) === null) {
       res.send("Post Not Found");
     } else {
-      await Spend.findByIdAndRemove(req.params.id).exec();
+      await Earning.findByIdAndRemove(req.params.id).exec();
     }
   } catch (err) {
     console.log(err);

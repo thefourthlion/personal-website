@@ -36,7 +36,7 @@ export default function Navigation() {
           </Link>
         </li>
         <li>
-          {/* <button
+          <button
             className="mode-btn cybr-btn"
             onClick={function () {
               const modeBtn = document.querySelector(".mode-btn");
@@ -114,7 +114,7 @@ export default function Navigation() {
             <span aria-hidden id="tag" className="cybr-btn__tag">
               ED5
             </span>
-          </button> */}
+          </button>
         </li>
       </ul>
       <h1 className="nav-title">Everett De Leon</h1>

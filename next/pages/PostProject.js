@@ -76,13 +76,15 @@ export default function PostProject() {
           }}
         />
         <button onClick={addProject} className="cybr-btn contact-btn">
-          Submit_Project
-          <span aria-hidden id="glitch" className="cybr-btn__glitch">
-            //Submit//Project//
-          </span>
-          <span aria-hidden id="tag" className="cybr-btn__tag">
-            ED5
-          </span>
+          <p>
+            Submit_Project
+            <span aria-hidden id="glitch" className="cybr-btn__glitch">
+              Submit Project
+            </span>
+            <span aria-hidden id="tag" className="cybr-btn__tag">
+              ED5
+            </span>
+          </p>
         </button>
         {projectList.map((val, key) => {
           return (
