@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Dropdown from "react-bootstrap/Dropdown";
 import Axios from "axios";
-
+import Link from "next/link";
 const Earning = () => {
   const [amount, setAmount] = useState("");
   const [activity, setActivity] = useState("");
@@ -192,9 +192,9 @@ const Earning = () => {
         </div>
         <p>
           Record a transaction?{" "}
-          <a href="/spend" className="green">
+          <Link href="/spend" className="green">
             (spend)
-          </a>
+          </Link>
         </p>
         <button
           className="submit-btn"
@@ -215,7 +215,7 @@ const Earning = () => {
             <h2>
               Your depositing $<span className="green">{amount}</span> into{" "}
               <span className="green">{deposit}</span> for working on{" "}
-              <span className="green">{activity}</span>. And it's been{" "}
+              <span className="green">{activity}</span>. And its been{" "}
               <span className="green">{enjoyment}</span>
             </h2>
           )}

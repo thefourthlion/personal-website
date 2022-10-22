@@ -1,6 +1,9 @@
 import Image from "next/image";
 import React from "react";
-
+import fourthLionImage from "../public/images/theforthlion.jpg";
+import githubImage from "../public/images/github.png";
+import twitterImage from "../public/images/twitter.png";
+import linkdInImage from "../public/images/linkedin.png";
 export default function Home() {
   const lazyRoot = React.useRef(null);
   return (
@@ -10,7 +13,7 @@ export default function Home() {
           lazyRoot={lazyRoot}
           width="125px"
           height="125px"
-          src="/../public/images/theforthlion.jpg"
+          src={fourthLionImage}
           alt="creators-image"
           className="my-img"
         />
@@ -21,7 +24,7 @@ export default function Home() {
             lazyRoot={lazyRoot}
             width="42px"
             height="42px"
-            src="/../public/images/github.png"
+            src={githubImage}
             alt="github logo"
             className="social-logo"
           />
@@ -31,7 +34,7 @@ export default function Home() {
             lazyRoot={lazyRoot}
             width="51px"
             height="42px"
-            src="/../public/images/twitter.png"
+            src={twitterImage}
             alt="twitter logo"
             className="social-logo twitter"
           />
@@ -44,7 +47,7 @@ export default function Home() {
             lazyRoot={lazyRoot}
             width="42px"
             height="42px"
-            src="/../public/images/linkedin.png"
+            src={linkdInImage}
             alt="linkedin logo"
             className="social-logo linked"
           />

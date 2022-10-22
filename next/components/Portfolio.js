@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Axios from "axios";
+import Image from "next/image";
 export default function Portfolio() {
   const [projectList, setProjectList] = useState([]);
   useEffect(() => {
@@ -9,11 +10,15 @@ export default function Portfolio() {
   }, []);
 
   function PortfolioEntry(props) {
+    const lazyRoot = React.useRef(null);
     return (
-      <div className="portfolio-component">
+      <div className="portfolio-component" ref={lazyRoot}>
         <a href={props.webLink}>
-          <img
+          <Image
+            loader={() => props.imageLink}
             src={props.imageLink}
+            width="500px"
+            height="250px"
             alt="portfolio"
             className="portfolio-pic"
           />

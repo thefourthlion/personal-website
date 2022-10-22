@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import Dropdown from "react-bootstrap/Dropdown";
 import Axios from "axios";
+import Link from "next/link";
 
 const Spending = () => {
   const [cost, setCost] = useState("");
   const [category, setCategory] = useState("");
   const [card, setCard] = useState("");
   const [store, setStore] = useState("");
-
   const postSpend = () => {
     Axios.post("http://localhost:3001/api/money/spend", {
       cost: cost,
@@ -242,9 +242,9 @@ const Spending = () => {
         </div>
         <p>
           Record an earning?{" "}
-          <a href="/earn" className="green">
+          <Link href="/earn" className="green">
             (earn)
-          </a>
+          </Link>
         </p>
         <button
           className="submit-btn"
