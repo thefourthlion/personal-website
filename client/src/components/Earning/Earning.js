@@ -1,42 +1,42 @@
 import React, { useState } from "react";
 import Dropdown from "react-bootstrap/Dropdown";
 import Axios from "axios";
-import Link from "next/link";
 
-const Spending = () => {
-  const [cost, setCost] = useState("");
-  const [category, setCategory] = useState("");
-  const [card, setCard] = useState("");
-  const [store, setStore] = useState("");
+const Earning = () => {
+  const [amount, setAmount] = useState("");
+  const [activity, setActivity] = useState("");
+  const [deposit, setDeposit] = useState("");
+  const [enjoyment, setEnjoyment] = useState("");
+
   const postSpend = () => {
-    Axios.post("https://www.apis.everettdeleon.com/api/money/spend", {
-      cost: cost,
-      category: category,
-      store: store,
-      card: card,
+    Axios.post("https://www.apis.everettdeleon.com/api/money/earn", {
+      amount: amount,
+      activity: activity,
+      enjoyment: enjoyment,
+      deposit: deposit,
       timestamp: date,
     });
   };
 
   const today = new Date();
   const dd = String(today.getDate()).padStart(2, "0");
-  const mm = String(today.getMonth() + 1).padStart(2, "0"); //January is 0!
+  const mm = String(today.getMonth() + 1).padStart(2, "0");
   const yyyy = today.getFullYear();
   const date = mm + "/" + dd + "/" + yyyy;
-
+  console.log(date);
   return (
-    <div className="Spending">
+    <div className="Earning">
       <form>
-        <h1>🧧 - Spending</h1>
+        <h1>💰 - Earning</h1>
 
         <div className="amount">
-          <p>💸 - Amount</p>
+          <p>💵 - Amount</p>
           <input
             step="any"
             type="number"
             placeholder="$100"
             onChange={(e) => {
-              setCost(e.target.value);
+              setAmount(e.target.value);
             }}
           />
         </div>
@@ -45,206 +45,156 @@ const Spending = () => {
         <div className="dropdown-menus">
           <Dropdown className="dropdown">
             <Dropdown.Toggle className="dropdown-name" variant="light">
-              🐈‍⬛ - Cat.
+              🤔 - How
             </Dropdown.Toggle>
             <Dropdown.Menu className="dropdown-menu">
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCategory("Food");
+                  setActivity("9-5");
                 }}
               >
-                🌮 - Food
+                🏢 - 9-5
               </Dropdown.Item>
 
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCategory("Health Care");
+                  setActivity("Business");
                 }}
               >
-                ❤️‍🩹 - Health Care
+                🪴 - Business
               </Dropdown.Item>
 
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCategory("Education");
+                  setActivity("Found it");
                 }}
               >
-                📖 - Learn
-              </Dropdown.Item>
-              <Dropdown.Item
-                className="dropdown-item"
-                onClick={(e) => {
-                  setCategory("Gas");
-                }}
-              >
-                ⛽ - Gas
-              </Dropdown.Item>
-              <Dropdown.Item
-                className="dropdown-item"
-                onClick={(e) => {
-                  setCategory("Work");
-                }}
-              >
-                ⚒️ - Work
-              </Dropdown.Item>
-              <Dropdown.Item
-                className="dropdown-item"
-                onClick={(e) => {
-                  setCategory("Subscriptions");
-                }}
-              >
-                🎬 - Subscriptions
-              </Dropdown.Item>
-              <Dropdown.Item
-                className="dropdown-item"
-                onClick={(e) => {
-                  setCategory("Sick Care");
-                }}
-              >
-                🤒 - Sick Care
+                🍀 - Found it
               </Dropdown.Item>
 
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCategory("Maintenance");
+                  setActivity("Side Job");
                 }}
               >
-                🏢 - Maint.
+                ⚒️ - Side Job
               </Dropdown.Item>
+
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCategory("Jewelry");
+                  setActivity("Stimulus");
                 }}
               >
-                💎 - Jewelry
+                💹 - Interest
               </Dropdown.Item>
+
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCategory("Doo Dads");
+                  setActivity("Stimulus");
                 }}
               >
-                🪀 - Doo Dads
-              </Dropdown.Item>
-              <Dropdown.Item
-                className="dropdown-item"
-                onClick={(e) => {
-                  setCategory("Flower");
-                }}
-              >
-                🪴 - Flower
+                💉 - Stimulus
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
 
           <Dropdown className="dropdown">
             <Dropdown.Toggle className="dropdown-name" variant="light">
-              🃏 - Card
+              🏦 - Dep.
             </Dropdown.Toggle>
 
             <Dropdown.Menu className="dropdown-menu">
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCard("Discover");
+                  setDeposit("US Bank");
                 }}
               >
-                💳 - Disc
+                💶 - USBANK
               </Dropdown.Item>
+
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCard("US Bank");
+                  setDeposit("Ally Bank");
                 }}
               >
-                🏦 - USBANK
+                💷 - Ally Bank
               </Dropdown.Item>
+
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCard("Capital One");
+                  setDeposit("Crypto");
                 }}
               >
-                🏧 - CAPT1
+                🔮 - Crypto Wallet
               </Dropdown.Item>
+
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCard("PayPal");
+                  setDeposit("Wallet");
                 }}
               >
-                💶 - PayPal
+                📁 - Wallet
               </Dropdown.Item>
+
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCard("Chase Amazon");
+                  setDeposit("Safe");
                 }}
               >
-                💱 - Chase
-              </Dropdown.Item>
-              <Dropdown.Item
-                className="dropdown-item"
-                onClick={(e) => {
-                  setCard("BOFA");
-                }}
-              >
-                🚩 - BOFA
-              </Dropdown.Item>
-              <Dropdown.Item
-                className="dropdown-item"
-                onClick={(e) => {
-                  setCard("BOFA");
-                }}
-              >
-                ⬛ - BlockFI
+                🧷 - Safe
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
 
           <Dropdown className="dropdown">
             <Dropdown.Toggle className="dropdown-name" variant="light">
-              🏪 - Store
+              🎉 - Enjoy
             </Dropdown.Toggle>
 
             <Dropdown.Menu className="dropdown-menu">
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setStore("Ma & Pa");
+                  setEnjoyment("SSDD");
                 }}
               >
-                💳 - Ma & Pa
+                🥱 - SSDD 1-3
               </Dropdown.Item>
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setStore("Cooperation");
+                  setEnjoyment("Worthwhile");
                 }}
               >
-                🏭 - Corp.
+                😤 - Worthwhile 3-6
               </Dropdown.Item>
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setStore("Trustworthy company");
+                  setEnjoyment("Enjoyable");
                 }}
               >
-                😇 - Trustworthy.
+                🙃 - Enjoyable 6-10
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
         </div>
         <p>
-          Record an earning?{" "}
-          <Link href="/earn" className="green">
-            (earn)
-          </Link>
+          Record a transaction?{" "}
+          <a href="/spend" className="green">
+            (spend)
+          </a>
         </p>
         <button
           className="submit-btn"
@@ -254,16 +204,19 @@ const Spending = () => {
         >
           Submit
         </button>
-        <p className="warning">(bank notifications and recipes)</p>
+
+        <p className="warning">(record all forms of cash flow)</p>
       </form>
       <h1>
-        {cost.length > 0 &&
-          category.length > 0 &&
-          card.length > 0 &&
-          store.length > 0 && (
+        {amount.length > 0 &&
+          activity.length > 0 &&
+          deposit.length > 0 &&
+          enjoyment.length > 0 && (
             <h2>
-              Your spending $<span>{cost}</span> on <span>{category}</span> with
-              a <span>{card}</span> card at a <span>{store}</span>
+              Your depositing $<span className="green">{amount}</span> into{" "}
+              <span className="green">{deposit}</span> for working on{" "}
+              <span className="green">{activity}</span>. And its been{" "}
+              <span className="green">{enjoyment}</span>
             </h2>
           )}
       </h1>
@@ -271,4 +224,4 @@ const Spending = () => {
   );
 };
 
-export default Spending;
+export default Earning;

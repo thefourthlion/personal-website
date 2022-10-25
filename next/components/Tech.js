@@ -1,4 +1,4 @@
-import TechBG from "../public/images/tech-bgtech-bg2.svg";
+import TechBG from "../components/svg/TechBg";
 export default function Tech() {
   return (
     <div className="Tech" id="Tech">

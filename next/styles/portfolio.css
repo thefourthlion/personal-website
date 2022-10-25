@@ -1,0 +1,49 @@
+.Portfolio {
+  padding: 10vh 10% 0 10%;
+}
+.Portfolio .portfolio-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+.Portfolio .header-link {
+  text-decoration: none;
+}
+.Portfolio .portfolio-component {
+  padding: 0;
+  margin: 0;
+  min-width: 300px;
+  max-width: 500px;
+  min-height: 450px;
+}
+.Portfolio .portfolio-pic {
+  max-width: 500px;
+  max-height: 250px;
+  border: solid 2px #3dd230;
+  padding: 5px;
+}
+@media (max-width: 40em) {
+  .Portfolio .portfolio-pic {
+    max-width: 350px;
+  }
+}
+.Portfolio .portfolio-pic:hover {
+  padding: 0px;
+  border: solid 4px #3dd230;
+}
+.Portfolio h2 {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+.Portfolio a {
+  color: rgb(44, 50, 59);
+}
+.Portfolio a:hover {
+  color: rgb(60, 207, 47);
+}
+.Portfolio p {
+  font-size: 17px;
+}/*# sourceMappingURL=portfolio.css.map */

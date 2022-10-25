@@ -1,4 +1,4 @@
-import BioTerminal from "../public/images/bio.svg";
+import BioTerminal from "../components/svg/BioTerminal";
 export default function Bio() {
   return (
     <div id="Bio">

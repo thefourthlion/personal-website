@@ -4,9 +4,11 @@ import Image from "next/image";
 export default function Portfolio() {
   const [projectList, setProjectList] = useState([]);
   useEffect(() => {
-    Axios.get("http://localhost:3001/api/posts/read").then((res) => {
-      setProjectList(res.data);
-    });
+    Axios.get("https://www.apis.everettdeleon.com/api/posts/read").then(
+      (res) => {
+        setProjectList(res.data);
+      }
+    );
   }, []);
 
   function PortfolioEntry(props) {

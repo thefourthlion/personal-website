@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Dropdown from "react-bootstrap/Dropdown";
 import Axios from "axios";
-import Link from "next/link";
 
 const Spending = () => {
   const [cost, setCost] = useState("");
@@ -242,9 +241,9 @@ const Spending = () => {
         </div>
         <p>
           Record an earning?{" "}
-          <Link href="/earn" className="green">
+          <a href="/earn" className="green">
             (earn)
-          </Link>
+          </a>
         </p>
         <button
           className="submit-btn"

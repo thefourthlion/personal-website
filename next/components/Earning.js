@@ -9,7 +9,7 @@ const Earning = () => {
   const [enjoyment, setEnjoyment] = useState("");
 
   const postSpend = () => {
-    Axios.post("http://localhost:3001/api/money/earn", {
+    Axios.post("https://www.apis.everettdeleon.com/api/money/earn", {
       amount: amount,
       activity: activity,
       enjoyment: enjoyment,

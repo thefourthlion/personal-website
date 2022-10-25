@@ -1,0 +1,24 @@
+.PostProject {
+  padding-top: 95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.PostProject label {
+  font-size: 1.4rem;
+}
+.PostProject input {
+  display: block;
+  margin: 10px 0 10px 0;
+  height: 30px;
+}
+.PostProject textarea {
+  margin: 10px 0 10px 0;
+  display: block;
+}
+.PostProject .delete-btn {
+  display: inline;
+}
+.PostProject button {
+  margin-top: 20px;
+}/*# sourceMappingURL=PostProject.css.map */

@@ -1,0 +1,24 @@
+.Home {
+  padding-top: 150px;
+  height: 100vh;
+}
+.Home h3 {
+  margin-bottom: 35px;
+}
+.Home .my-img {
+  width: 125px;
+  height: 125px;
+  border-radius: 100px;
+  margin-top: 25vh;
+}
+.Home .social-a {
+  margin: 0 15px;
+}
+.Home .twitter {
+  padding: 0 150px;
+  width: 51px;
+  height: 42px;
+}
+.Home .social-logo:hover {
+  transform: rotate(20deg);
+}/*# sourceMappingURL=landing.css.map */

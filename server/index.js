@@ -3,7 +3,7 @@ const session = require("express-session");
 const passport = require("passport");
 const app = express();
 const cors = require("cors");
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 3002;
 const User = require("./models/user");
 const connectDB = require("./config/mongoose");
 

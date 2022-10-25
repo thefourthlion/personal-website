@@ -1,0 +1,133 @@
+<svg className="svg-bio svg-all" viewBox="0 0 783 659" xmlns="http://www.w3.org/2000/svg">
+    <rect width="783" height="659" fill="#E5E5E5" />
+    <g id="Desktop - 1" clip-path="url(#clip0_0_1)">
+        <rect width="783" height="659" />
+        <rect id="terminal" x="2" y="2" width="779" height="657" fill="#151515" />
+        <rect id="termional-input" x="24" y="64" width="735" height="581" fill="black" />
+        <g id="bio-hamburger">
+            <line id="Line 1" x1="25" y1="24.5" x2="60" y2="24.5" stroke="#A6A3A3" stroke-width="3" />
+            <line id="Line 2" x1="25" y1="35.5" x2="60" y2="35.5" stroke="#A6A3A3" stroke-width="3" />
+            <line id="Line 3" x1="25" y1="47.5" x2="60" y2="47.5" stroke="#A6A3A3" stroke-width="3" />
+        </g>
+        <g id="browser-menu-items">
+            <rect id="Rectangle 3" x="687.5" y="24.425" width="26" height="26" stroke="#C4C4C4" stroke-width="3" />
+            <line id="Line 4" x1="760.061" y1="23.0607" x2="731.561" y2="51.5607" stroke="#C4C4C4" stroke-width="3" />
+            <line id="Line 5" x1="731.561" y1="22.3644" x2="760.061" y2="50.8644" stroke="#C4C4C4" stroke-width="3" />
+            <line id="Line 6" x1="645" y1="36.425" x2="671" y2="36.425" stroke="#C4C4C4" stroke-width="3" />
+        </g>
+        <text id="bio-title" fill="white" xml:space="preserve" style="white-space: pre" font-size="24"
+            letter-spacing="0em">
+            <tspan x="283" y="41.2031">MINGW64:/e/Bio</tspan>
+        </text>
+        <g id="dir1">
+            <text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-size="17" letter-spacing="0em">
+                <tspan x="369.368" y="93.8105">/e/Bio</tspan>
+            </text>
+            <text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-size="17" letter-spacing="0em">
+                <tspan x="287.738" y="93.8105">MINGW64</tspan>
+            </text>
+            <text fill="white" xml:space="preserve" style="white-space: pre" font-size="17" letter-spacing="0em">
+                <tspan x="283.521" y="93.8105"> </tspan>
+                <tspan x="365.151" y="93.8105"> </tspan>
+            </text>
+            <text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-size="17" letter-spacing="0em">
+                <tspan x="34" y="93.8105">everettdeleon@DESKTOP-3MT17I6</tspan>
+            </text>
+        </g>
+        <g id="dir2">
+            <text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-size="17" letter-spacing="0em">
+                <tspan x="369.368" y="353.811">/e/Bio</tspan>
+            </text>
+            <text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-size="17" letter-spacing="0em">
+                <tspan x="287.738" y="353.811">MINGW64</tspan>
+            </text>
+            <text fill="white" xml:space="preserve" style="white-space: pre" font-size="17" letter-spacing="0em">
+                <tspan x="283.521" y="353.811"> </tspan>
+                <tspan x="365.151" y="353.811"> </tspan>
+            </text>
+            <text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-size="17" letter-spacing="0em">
+                <tspan x="34" y="353.811">everettdeleon@DESKTOP-3MT17I6</tspan>
+            </text>
+        </g>
+        <g id="bio-about">
+            <text fill="white" xml:space="preserve" style="white-space: pre" font-size="20" letter-spacing="0em">
+                <tspan x="45.25" y="120.336"> echo </tspan>
+                <tspan x="34" y="143.336">Hello world, my name is Everett De Leon. I am a mostly self taught software
+                </tspan>
+                <tspan x="34" y="166.336">engineer. I've been building computers and coding for about 4 years.
+                </tspan>
+                <tspan x="34" y="189.336">After highschool inbetween working full time i got really fasinated with
+
+                </tspan>
+                <tspan x="34" y="212.336">coding and started learning how to build websites, games, full stack web
+                </tspan>
+                <tspan x="34" y="235.336">applications, and even how to write smart contracts and interact with
+
+                </tspan>
+                <tspan x="34" y="258.336">blockchains. Soon after i discovered my passion for coding i started working
+
+                </tspan>
+                <tspan x="34" y="281.336">on my AA in computer science. I'm someone who enjoys learning technical things
+
+                </tspan>
+                <tspan x="34" y="304.336">and solving problems, the greater the challenge the greater the oppertunity to
+                    grow.
+                </tspan>
+            </text>
+            <text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-size="20" letter-spacing="0em">
+                <tspan x="34" y="120.336">$</tspan>
+            </text>
+            <text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-size="20" letter-spacing="0em">
+                <tspan x="98.668" y="120.336">$about</tspan>
+            </text>
+        </g>
+        <g id="bio-hobbies">
+            <text fill="white" xml:space="preserve" style="white-space: pre" font-size="20" letter-spacing="0em">
+                <tspan x="45.25" y="388.336"> echo </tspan>
+                <tspan x="34" y="411.336">I love working with technology and learning new ways to build with it. My
+                </tspan>
+                <tspan x="34" y="434.336">technical hobbies include making mods for video games, creating randomly
+                </tspan>
+                <tspan x="34" y="457.336">generated art, coding anything that catches my attention, making NFTs,
+                </tspan>
+                <tspan x="34" y="480.336">tinkering with hardware, playing video games, wrtiting full stack web</tspan>
+                <tspan x="34" y="503.336">applications, reading books, running cardano proof of stake servers, and
+                    flying drones.</tspan>
+            </text>
+            <text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-size="20" letter-spacing="0em">
+                <tspan x="34" y="388.336">$</tspan>
+            </text>
+            <text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-size="20" letter-spacing="0em">
+                <tspan x="98.668" y="388.336">$hobbies</tspan>
+            </text>
+        </g>
+        <g id="dir3">
+            <text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-size="17" letter-spacing="0em">
+                <tspan x="369.368" y="555.811">/e/Bio</tspan>
+            </text>
+            <text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-size="17" letter-spacing="0em">
+                <tspan x="287.738" y="555.811">MINGW64</tspan>
+            </text>
+            <text fill="white" xml:space="preserve" style="white-space: pre" font-size="17" letter-spacing="0em">
+                <tspan x="283.521" y="555.811"> </tspan>
+                <tspan x="365.151" y="555.811"> </tspan>
+            </text>
+            <text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-size="17" letter-spacing="0em">
+                <tspan x="34" y="555.811">everettdeleon@DESKTOP-3MT17I6</tspan>
+            </text>
+        </g>
+        <g id="last-input">
+            <text fill="white" xml:space="preserve" style="white-space: pre" font-size="20" letter-spacing="0em">
+                <tspan x="45.25" y="590.336"> _</tspan>
+            </text>
+            <text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-size="20" letter-spacing="0em">
+                <tspan x="34" y="590.336">$</tspan>
+            </text>
+        </g>
+    </g>
+    <defs>
+        <clipPath id="clip0_0_1">
+            <rect width="783" height="659" fill="white" />
+        </clipPath>
+    </defs>
+</svg>
