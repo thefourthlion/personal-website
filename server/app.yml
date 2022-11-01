@@ -1,0 +1,5 @@
+apps:
+  - script: ./index.js
+    cwd: /home/thefourthlion/personal-website/server/
+    name: "personalweb"
+    interpreter: /usr/bin/node

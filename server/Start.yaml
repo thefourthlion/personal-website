@@ -1,4 +1,0 @@
-apps:
-  - script: node ./index.js
-    cwd: /home/thefourthlion/apis.everettdeleon.com/
-    interpreter: /usr/bin/node
