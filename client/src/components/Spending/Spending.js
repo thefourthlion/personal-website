@@ -71,7 +71,7 @@ const Spending = () => {
                   setCategory("Education");
                 }}
               >
-                📖 - Learn
+                📖 - Education
               </Dropdown.Item>
               <Dropdown.Item
                 className="dropdown-item"
@@ -125,10 +125,10 @@ const Spending = () => {
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCategory("Doo Dads");
+                  setCategory("Gifts");
                 }}
               >
-                🪀 - Doo Dads
+                🪀 - Gifts
               </Dropdown.Item>
               <Dropdown.Item
                 className="dropdown-item"
@@ -137,6 +137,14 @@ const Spending = () => {
                 }}
               >
                 🪴 - Flower
+              </Dropdown.Item>
+              <Dropdown.Item
+                className="dropdown-item"
+                onClick={(e) => {
+                  setCategory("Doo Dads");
+                }}
+              >
+                🤣 - Doo Dads
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
@@ -162,6 +170,14 @@ const Spending = () => {
                 }}
               >
                 🏦 - USBANK
+              </Dropdown.Item>
+              <Dropdown.Item
+                className="dropdown-item"
+                onClick={(e) => {
+                  setCard("Amex");
+                }}
+              >
+                Ⓜ️ - Amex
               </Dropdown.Item>
               <Dropdown.Item
                 className="dropdown-item"
