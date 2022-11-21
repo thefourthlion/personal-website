@@ -9,9 +9,9 @@ const {
   deleteSpend,
 } = require("../controllers/spend");
 
-router.route("/spend").post(createSpend);
-router.route("/seeAllSpends").get(readAllSpends);
-router.route("/seeOneSpend/:id").get(readSpendFromID);
-router.route("/deleteSpend/:id").delete(deleteSpend);
+router.route("/create").post(createSpend);
+router.route("/read").get(readAllSpends);
+router.route("/read/:id").get(readSpendFromID);
+router.route("/delete/:id").delete(deleteSpend);
 
 module.exports = router;

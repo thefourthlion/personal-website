@@ -8,7 +8,7 @@ const Spending = () => {
   const [card, setCard] = useState("");
   const [store, setStore] = useState("");
   const postSpend = () => {
-    Axios.post("https://www.api.everettdeleon.com/api/money/spend", {
+    Axios.post("https://api.everettdeleon.com/api/spend/create", {
       cost: cost,
       category: category,
       store: store,
@@ -26,10 +26,10 @@ const Spending = () => {
   return (
     <div className="Spending">
       <form>
-        <h1>🧧 - Spending</h1>
+        <h1>🧧 Spending</h1>
 
         <div className="amount">
-          <p>💸 - Amount</p>
+          <p>💸 Amount</p>
           <input
             step="any"
             type="number"
@@ -44,213 +44,206 @@ const Spending = () => {
         <div className="dropdown-menus">
           <Dropdown className="dropdown">
             <Dropdown.Toggle className="dropdown-name" variant="light">
-              🐈‍⬛ - Cat.
+              🐈‍⬛ Cat.
             </Dropdown.Toggle>
             <Dropdown.Menu className="dropdown-menu">
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCategory("Food");
+                  setCategory("🌮 Food");
                 }}
               >
-                🌮 - Food
+                🌮 Food
               </Dropdown.Item>
 
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCategory("Health Care");
+                  setCategory("❤️‍🩹 Health Care");
                 }}
               >
-                ❤️‍🩹 - Health Care
+                ❤️‍🩹 Health Care
               </Dropdown.Item>
 
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCategory("Education");
+                  setCategory("📖 Education");
                 }}
               >
-                📖 - Education
+                📖 Education
               </Dropdown.Item>
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCategory("Gas");
+                  setCategory("⛽ Gas");
                 }}
               >
-                ⛽ - Gas
-              </Dropdown.Item>
-              <Dropdown.Item
-                className="dropdown-item"
-                onClick={(e) => {
-                  setCategory("Work");
-                }}
-              >
-                ⚒️ - Work
-              </Dropdown.Item>
-              <Dropdown.Item
-                className="dropdown-item"
-                onClick={(e) => {
-                  setCategory("Subscriptions");
-                }}
-              >
-                🎬 - Subscriptions
-              </Dropdown.Item>
-              <Dropdown.Item
-                className="dropdown-item"
-                onClick={(e) => {
-                  setCategory("Sick Care");
-                }}
-              >
-                🤒 - Sick Care
+                ⛽ Gas
               </Dropdown.Item>
 
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCategory("Maintenance");
+                  setCategory("🎬 Subscriptions");
                 }}
               >
-                🏢 - Maint.
+                🎬 Subscriptions
+              </Dropdown.Item>
+
+              <Dropdown.Item
+                className="dropdown-item"
+                onClick={(e) => {
+                  setCategory("📄 Rent");
+                }}
+              >
+                📄 Rent
               </Dropdown.Item>
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCategory("Jewelry");
+                  setCategory("🏢 Maint.");
                 }}
               >
-                💎 - Jewelry
+                🏢 Maint.
               </Dropdown.Item>
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCategory("Gifts");
+                  setCategory("💎 Jewelry");
                 }}
               >
-                🪀 - Gifts
+                💎 Jewelry
               </Dropdown.Item>
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCategory("Flower");
+                  setCategory("🪀 Gifts");
                 }}
               >
-                🪴 - Flower
+                🪀 Gifts
               </Dropdown.Item>
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCategory("Doo Dads");
+                  setCategory("🪴 Flower");
                 }}
               >
-                🤣 - Doo Dads
+                🪴 Flower
+              </Dropdown.Item>
+              <Dropdown.Item
+                className="dropdown-item"
+                onClick={(e) => {
+                  setCategory("🤣 Doo Dads");
+                }}
+              >
+                🤣 Doo Dads
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
 
           <Dropdown className="dropdown">
             <Dropdown.Toggle className="dropdown-name" variant="light">
-              🃏 - Card
+              🃏 Card
             </Dropdown.Toggle>
 
             <Dropdown.Menu className="dropdown-menu">
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCard("Discover");
+                  setCard("💳 Disc");
                 }}
               >
-                💳 - Disc
+                💳 Disc
               </Dropdown.Item>
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCard("US Bank");
+                  setCard("🏦 USBANK");
                 }}
               >
-                🏦 - USBANK
+                🏦 USBANK
               </Dropdown.Item>
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCard("Amex");
+                  setCard("Ⓜ️ Amex");
                 }}
               >
-                Ⓜ️ - Amex
+                Ⓜ️ Amex
               </Dropdown.Item>
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCard("Capital One");
+                  setCard("🏧 CAPT1");
                 }}
               >
-                🏧 - CAPT1
+                🏧 CAPT1
               </Dropdown.Item>
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCard("PayPal");
+                  setCard("💶 PayPal");
                 }}
               >
-                💶 - PayPal
+                💶 PayPal
               </Dropdown.Item>
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCard("Chase Amazon");
+                  setCard("💱 Chase");
                 }}
               >
-                💱 - Chase
+                💱 Chase
               </Dropdown.Item>
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCard("BOFA");
+                  setCard("🚩 BOFA");
                 }}
               >
-                🚩 - BOFA
+                🚩 BOFA
               </Dropdown.Item>
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setCard("BOFA");
+                  setCard("⬛ BlockFI");
                 }}
               >
-                ⬛ - BlockFI
+                ⬛ BlockFI
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
 
           <Dropdown className="dropdown">
             <Dropdown.Toggle className="dropdown-name" variant="light">
-              🏪 - Store
+              🏪 Store
             </Dropdown.Toggle>
 
             <Dropdown.Menu className="dropdown-menu">
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setStore("Ma & Pa");
+                  setStore("👨‍💻 Ma & Pa");
                 }}
               >
-                💳 - Ma & Pa
+                👨‍💻 Ma & Pa
               </Dropdown.Item>
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setStore("Cooperation");
+                  setStore("🏭 Corp.");
                 }}
               >
-                🏭 - Corp.
+                🏭 Corp.
               </Dropdown.Item>
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setStore("Trustworthy company");
+                  setStore("😇 Trustworthy");
                 }}
               >
-                😇 - Trustworthy.
+                😇 Trustworthy
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>

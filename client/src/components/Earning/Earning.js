@@ -8,8 +8,8 @@ const Earning = () => {
   const [deposit, setDeposit] = useState("");
   const [enjoyment, setEnjoyment] = useState("");
 
-  const postSpend = () => {
-    Axios.post("https://www.api.everettdeleon.com/api/money/earn", {
+  const postEarn = () => {
+    Axios.post("https://api.everettdeleon.com/api/earn/create", {
       amount: amount,
       activity: activity,
       enjoyment: enjoyment,
@@ -23,14 +23,13 @@ const Earning = () => {
   const mm = String(today.getMonth() + 1).padStart(2, "0");
   const yyyy = today.getFullYear();
   const date = mm + "/" + dd + "/" + yyyy;
-  console.log(date);
   return (
     <div className="Earning">
       <form>
-        <h1>💰 - Earning</h1>
+        <h1>💰 Earning</h1>
 
         <div className="amount">
-          <p>💵 - Amount</p>
+          <p>💵 Amount</p>
           <input
             step="any"
             type="number"
@@ -45,147 +44,147 @@ const Earning = () => {
         <div className="dropdown-menus">
           <Dropdown className="dropdown">
             <Dropdown.Toggle className="dropdown-name" variant="light">
-              🤔 - How
+              🤔 How
             </Dropdown.Toggle>
             <Dropdown.Menu className="dropdown-menu">
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setActivity("9-5");
+                  setActivity("🏢 9-5");
                 }}
               >
-                🏢 - 9-5
+                🏢 9-5
               </Dropdown.Item>
 
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setActivity("Business");
+                  setActivity("🪴 Business");
                 }}
               >
-                🪴 - Business
+                🪴 Business
               </Dropdown.Item>
 
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setActivity("Found it");
+                  setActivity("🍀 Found it");
                 }}
               >
-                🍀 - Found it
+                🍀 Found it
               </Dropdown.Item>
 
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setActivity("Side Job");
+                  setActivity("⚒️ Side Job");
                 }}
               >
-                ⚒️ - Side Job
+                ⚒️ Side Job
               </Dropdown.Item>
 
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setActivity("Stimulus");
+                  setActivity("💹 Interest");
                 }}
               >
-                💹 - Interest
+                💹 Interest
               </Dropdown.Item>
 
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setActivity("Stimulus");
+                  setActivity("💉 Stimulus");
                 }}
               >
-                💉 - Stimulus
+                💉 Stimulus
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
 
           <Dropdown className="dropdown">
             <Dropdown.Toggle className="dropdown-name" variant="light">
-              🏦 - Dep.
+              🏦 Dep.
             </Dropdown.Toggle>
 
             <Dropdown.Menu className="dropdown-menu">
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setDeposit("US Bank");
+                  setDeposit("💶 USBANK");
                 }}
               >
-                💶 - USBANK
+                💶 USBANK
               </Dropdown.Item>
 
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setDeposit("Ally Bank");
+                  setDeposit("💷 Ally Bank");
                 }}
               >
-                💷 - Ally Bank
+                💷 Ally Bank
               </Dropdown.Item>
 
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setDeposit("Crypto");
+                  setDeposit("🔮 Crypto ");
                 }}
               >
-                🔮 - Crypto Wallet
+                🔮 Crypto
               </Dropdown.Item>
 
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setDeposit("Wallet");
+                  setDeposit("📁 Wallet");
                 }}
               >
-                📁 - Wallet
+                📁 Wallet
               </Dropdown.Item>
 
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setDeposit("Safe");
+                  setDeposit("🧷 Safe");
                 }}
               >
-                🧷 - Safe
+                🧷 Safe
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
 
           <Dropdown className="dropdown">
             <Dropdown.Toggle className="dropdown-name" variant="light">
-              🎉 - Enjoy
+              🎉 Enjoy
             </Dropdown.Toggle>
 
             <Dropdown.Menu className="dropdown-menu">
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setEnjoyment("SSDD");
+                  setEnjoyment("🥱 SSDD 1-3");
                 }}
               >
-                🥱 - SSDD 1-3
+                🥱 SSDD 1-3
               </Dropdown.Item>
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setEnjoyment("Worthwhile");
+                  setEnjoyment("😤 Worthwhile 3-6");
                 }}
               >
-                😤 - Worthwhile 3-6
+                😤 Worthwhile 3-6
               </Dropdown.Item>
               <Dropdown.Item
                 className="dropdown-item"
                 onClick={(e) => {
-                  setEnjoyment("Enjoyable");
+                  setEnjoyment("🙃 Enjoyable 6-10");
                 }}
               >
-                🙃 - Enjoyable 6-10
+                🙃 Enjoyable 6-10
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
@@ -199,7 +198,7 @@ const Earning = () => {
         <button
           className="submit-btn"
           onClick={() => {
-            postSpend();
+            postEarn();
           }}
         >
           Submit

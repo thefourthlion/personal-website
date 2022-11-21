@@ -25,7 +25,7 @@ exports.readAllSpends = async (req, res) => {
         res.json({ app: err });
       }
       res.send(result);
-    });
+    }).sort({ createdAt: -1 });
   } catch (err) {
     console.log(err);
   }

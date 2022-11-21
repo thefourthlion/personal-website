@@ -52,8 +52,8 @@ app.get("/", (req, res) => {
 // --------------------------------------------(end of passport)------------------------------------------
 app.use("/api/auth", require("./routes/auth"));
 app.use("/api/posts", require("./routes/posts"));
-app.use("/api/money", require("./routes/spends"));
-app.use("/api/money", require("./routes/earn"));
+app.use("/api/spend", require("./routes/spends"));
+app.use("/api/earn", require("./routes/earn"));
 
 // --------------------------------------------(end of note routes)------------------------------------------
 app.listen(PORT, () => {

@@ -1,0 +1,19 @@
+.Spent .spent-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  text-align: center;
+}
+.Spent .spending {
+  padding: 8px 0 0 0;
+  width: 265px;
+  height: 80px;
+  box-shadow: 9px 9px 4px -6px hsla(0deg, 0%, 0%, 0.3);
+  border: 2px solid #3dd230;
+  border-radius: 5px;
+}
+.Spent h1 {
+  font-size: 1.5rem;
+}/*# sourceMappingURL=Spent.css.map */

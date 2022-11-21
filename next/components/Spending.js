@@ -9,7 +9,7 @@ const Spending = () => {
   const [card, setCard] = useState("");
   const [store, setStore] = useState("");
   const postSpend = () => {
-    Axios.post("https://www.api.everettdeleon.com/api/money/spend", {
+    Axios.post("https://api.everettdeleon.com/api/money/spend", {
       cost: cost,
       category: category,
       store: store,
