@@ -17,6 +17,11 @@ body .red {
 body .pink {
   color: #d034d3;
 }
+body .red-outline-btn {
+  border: 2px solid red;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0);
+}
 body a {
   color: rgb(44, 50, 59);
 }
