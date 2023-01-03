@@ -1,87 +1,100 @@
 import "./contact.css";
-import React, { useRef } from "react";
-
-import emailjs from "emailjs-com";
+import React, { useState } from "react";
+import FloatingLabel from "react-bootstrap/FloatingLabel";
+import Form from "react-bootstrap/Form";
+import Axios from "axios";
 export default function Contact() {
-  const form = useRef();
-  // e.preventDefault();
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+  const [message, setMessage] = useState("");
+  const [submitResponse, setSubmitResponse] = useState("");
 
-  function sendEmail(e) {
-    e.preventDefault();
-    let name = document.querySelector(".input-name").value;
-    let email = document.querySelector(".input-email").value;
-    let message = document.querySelector(".input-message").value;
-    if (name === "" || email === "" || message === "") {
-      document.querySelector(".empty-form").innerHTML =
-        "You must fill out the entire form.";
-    } else {
-      if (email.includes("@") && email.includes(".")) {
-        document.querySelector(".contact-btn").style.display = "none";
-        document.querySelector(".message-submitted").innerHTML =
-          "I just received your message and will get back to you as soon as i can.";
-        emailjs
-          .sendForm(
-            "service_cx595vr",
-            "template_4357a1r",
-            form.current,
-            "oYjwVLvs6iGkGWbAi"
-          )
-          .then(
-            (result) => {
-              console.log(result.text);
-            },
-            (error) => {
-              console.log(error.text);
-            }
-          );
-      } else {
-        document.querySelector(".empty-form").innerHTML =
-          "Make sure you entered a valid email.";
-      }
-    }
+  const date = new Date().toLocaleDateString("en-us", {
+    year: "numeric",
+    month: "numeric",
+    day: "numeric",
+  });
+
+  function refreshPage() {
+    window.location.reload(false);
   }
+
+  const sendForm = () => {
+    Axios.post("http://localhost:3001/api/contact/create", {
+      name: name,
+      email: email,
+      message: message,
+      timestamp: date,
+    }).then(() => {
+      refreshPage();
+    });
+  };
+
   return (
     <div className="Contact" id="Contact">
-      <form ref={form} onSubmit={sendEmail} className="contact-form">
+      <div className="contact-container">
+        <h1>Contact Me</h1>
+        <hr />
         <div className="form-top">
-          <h1 className="form-label">Name</h1>
+          <h1>Name</h1>
 
-          <input
-            className="form-text-input input-name"
-            type="text"
-            name="name"
-            placeholder="Name"
-          />
+          <FloatingLabel className="form-label" label="Name">
+            <Form.Control
+              className="form-input"
+              type="text"
+              name="name"
+              placeholder="Name"
+              onChange={(e) => {
+                setName(e.target.value);
+              }}
+            />
+          </FloatingLabel>
 
-          <h1 className="form-label email">Email</h1>
-          <input
-            className="form-text-input input-email"
-            type="text"
-            name="email"
-            placeholder="Email"
-          />
+          <h1>Email</h1>
+
+          <FloatingLabel className="form-label" label="Email">
+            <Form.Control
+              className="form-input"
+              type="text"
+              name="email"
+              placeholder="Email"
+              onChange={(e) => {
+                setEmail(e.target.value);
+              }}
+            />
+          </FloatingLabel>
         </div>
-        <h1 className="message form-label">Message</h1>
+        <h1>Message</h1>
 
         <textarea
           className="input-message"
           type="text"
           name="message"
-          placeholder="Message..."
+          placeholder="Message"
+          onChange={(e) => {
+            setMessage(e.target.value);
+          }}
         />
         <p className="empty-form red"></p>
 
-        <p className="message-submitted"></p>
-        <button className="cybr-btn contact-btn" type="submit" value="Submit">
-          Submit_
-          <span aria-hidden id="glitch" className="cybr-btn__glitch">
-            Sub_mit
-          </span>
-          <span aria-hidden id="tag" className="cybr-btn__tag">
-            ED5
-          </span>
-        </button>
-      </form>
+        <p className="message-submitted">{submitResponse}</p>
+        <div className="cyber-btn-container">
+          <button
+            className="cybr-btn"
+            onClick={() => {
+              sendForm();
+            }}
+          >
+            Send_Message_
+            <span aria-hidden id="glitch" className="cybr-btn__glitch">
+              Send_Message_
+            </span>
+            <span aria-hidden id="tag" className="cybr-btn__tag">
+              ED5
+            </span>
+          </button>
+        </div>
+      </div>
     </div>
   );
 }

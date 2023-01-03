@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Axios from "axios";
 import "./PostProject.css";
+import FloatingLabel from "react-bootstrap/FloatingLabel";
+import Form from "react-bootstrap/Form";
 export default function PostProject() {
   const [title, setTitle] = useState("");
   const [projectDescription, setProjectDescription] = useState("");
@@ -34,56 +36,69 @@ export default function PostProject() {
 
   return (
     <div className="PostProject">
-      <form className="project-form">
-        <label>Project Title</label>
-        <input
-          placeholder="Title"
-          type="text"
-          onChange={(e) => {
-            setTitle(e.target.value);
-          }}
-        />
-        <label>Project Description</label>
+      <div className="container">
+        <h1>Add New Project To Collection</h1>
+        <FloatingLabel className="form-label" label="Project Title">
+          <Form.Control
+            className="form-input"
+            type="text"
+            placeholder="Project Title"
+            onChange={(e) => {
+              setTitle(e.target.value);
+            }}
+          />
+        </FloatingLabel>
+
         <textarea
-          placeholder="Description"
+          placeholder="Project Description"
           type="text"
           onChange={(e) => {
             setProjectDescription(e.target.value);
           }}
         />
-        <label>Image Link</label>
-        <input
-          placeholder="Image"
-          type="text"
-          onChange={(e) => {
-            setImageLink(e.target.value);
-          }}
-        />
-        <label>Website Link</label>
-        <input
-          placeholder="Website"
-          type="text"
-          onChange={(e) => {
-            setWebLink(e.target.value);
-          }}
-        />
-        <label>Project github link</label>
-        <input
-          placeholder="Github"
-          type="text"
-          onChange={(e) => {
-            setGithubLink(e.target.value);
-          }}
-        />
-        <button onClick={addProject} className="cybr-btn contact-btn">
-          Submit_Project
-          <span aria-hidden id="glitch" className="cybr-btn__glitch">
-            //Submit//Project//
-          </span>
-          <span aria-hidden id="tag" className="cybr-btn__tag">
-            ED5
-          </span>
-        </button>
+        <FloatingLabel className="form-label" label="Image Link">
+          <Form.Control
+            className="form-input"
+            type="text"
+            placeholder="Image Link"
+            onChange={(e) => {
+              setImageLink(e.target.value);
+            }}
+          />
+        </FloatingLabel>
+
+        <FloatingLabel className="form-label" label="Web Link">
+          <Form.Control
+            className="form-input"
+            type="text"
+            placeholder="Web Link"
+            onChange={(e) => {
+              setWebLink(e.target.value);
+            }}
+          />
+        </FloatingLabel>
+        <FloatingLabel className="form-label" label="Github Link">
+          <Form.Control
+            className="form-input"
+            type="text"
+            placeholder="Github Link"
+            onChange={(e) => {
+              setGithubLink(e.target.value);
+            }}
+          />
+        </FloatingLabel>
+
+        <div className="cyber-btn-container">
+          <button onClick={addProject} className="cybr-btn contact-btn">
+            Submit_Project
+            <span aria-hidden id="glitch" className="cybr-btn__glitch">
+              //Submit//Project//
+            </span>
+            <span aria-hidden id="tag" className="cybr-btn__tag">
+              ED5
+            </span>
+          </button>
+        </div>
         {projectList.map((val, key) => {
           return (
             <div key={val._id} className="">
@@ -103,7 +118,7 @@ export default function PostProject() {
             </div>
           );
         })}
-      </form>
+      </div>
     </div>
   );
 }

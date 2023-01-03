@@ -66,9 +66,13 @@
 
 @media (max-width: 900px) {
   .Navbar {
+    color: $github-gray !important;
+    a {
+      color: $github-gray !important;
+    }
     background-color: $white;
 
-    max-height: 75px;
+    // max-height: 175px;
     .nav-title {
       display: block;
     }
@@ -77,16 +81,12 @@
       background-color: $white;
       position: absolute;
       height: 100vh;
-      top: 75px;
+      top: 50px;
       display: flex;
       flex-direction: column;
       align-items: center;
       transition: transform 0.5s ease-in;
       width: 100vw;
-    }
-
-    a {
-      color: var(--clr-light-blue);
     }
 
     #nav-hidden {

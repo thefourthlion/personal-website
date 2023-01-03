@@ -12,7 +12,6 @@
 }
 .ImproveForm input {
   min-width: 400px;
-  border-color: rgb(228, 227, 222);
 }
 .ImproveForm input:focus,
 .ImproveForm hover {

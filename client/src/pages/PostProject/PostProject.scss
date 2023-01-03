@@ -1,31 +1,26 @@
-@import "../Variables/Variables.scss";
+@import "../../styles/Variables/Variables.scss";
 
-.PostProject{
-    padding-top: 95px;
+.PostProject {
+  padding-top: 95px;
+
+  .container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    label{
-        font-size: 1.4rem;
+    gap: 10px;
+  }
 
-    }
-    input{
-        display: block;
-        margin: 10px 0 10px 0;
-        height: 30px;
+  .form-label {
+    width: 350px;
+    margin: 0 auto;
+  }
+  textarea {
+    width: 350px;
+    height: 200px;
+  }
 
-
-    }
-    textarea{
-        margin: 10px 0 10px 0;
-        display: block;
-    }
-.delete-btn{
+  .delete-btn {
     display: inline;
-}
-button{
-    margin-top: 20px;
-}
-
-    
+  }
 }

@@ -1,0 +1,27 @@
+.Login {
+  height: 100vh;
+  padding-top: 150px;
+
+  .form-label {
+    width: 312px;
+    margin: 15px auto;
+  }
+
+  button {
+    font-size: 1.2rem;
+    width: 312px;
+    height: 55px;
+  }
+
+  a {
+    color: rgb(0, 168, 45);
+  }
+
+  .other-form {
+    margin-top: 15px;
+  }
+
+  .logout-btn {
+    margin-top: 15px;
+  }
+}

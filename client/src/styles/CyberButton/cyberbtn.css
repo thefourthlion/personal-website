@@ -1,21 +1,4 @@
-@font-face {
-  font-family: Cyber;
-  src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
-  font-display: swap;
-}
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Cyber", sans-serif;
-}
-
-body .cybr-btn + .cybr-btn {
-  margin-top: 2rem;
-}
-
-.cybr-btn {
+.cyber-btn-container .cybr-btn {
   --primary: rgb(60, 207, 47);
   --shadow-primary: #ebe322;
   --primary-hue: 0;
@@ -116,10 +99,9 @@ body .cybr-btn + .cybr-btn {
     8% 80%,
     0 70%
   );
-  font-family: "Cyber", sans-serif;
-  color: var(--color);
+  color: rgb(44, 50, 59);
   cursor: pointer;
-  background: transparent;
+  background: transparent !important;
   text-transform: uppercase;
   font-size: var(--font-size);
   outline: transparent;
@@ -131,17 +113,14 @@ body .cybr-btn + .cybr-btn {
   line-height: 50px;
   transition: background 0.2s;
 }
-
-.cybr-btn:hover {
+.cyber-btn-container .cybr-btn:hover {
   --primary: #3dd230;
 }
-
-.cybr-btn:active {
+.cyber-btn-container .cybr-btn:active {
   --primary: #ebe322;
 }
-
-.cybr-btn:after,
-.cybr-btn:before {
+.cyber-btn-container .cybr-btn:after,
+.cyber-btn-container .cybr-btn:before {
   content: "";
   position: absolute;
   top: 0;
@@ -152,17 +131,14 @@ body .cybr-btn + .cybr-btn {
           clip-path: var(--clip);
   z-index: -1;
 }
-
-.cybr-btn:before {
-  background: var(--shadow-primary);
+.cyber-btn-container .cybr-btn:before {
+  background: var(--shadow-primary) !important;
   transform: translate(var(--border), 0);
 }
-
-.cybr-btn:after {
-  background: var(--primary);
+.cyber-btn-container .cybr-btn:after {
+  background: var(--primary) !important;
 }
-
-.cybr-btn__tag {
+.cyber-btn-container .cybr-btn__tag {
   position: absolute;
   padding: 1px 4px;
   letter-spacing: 1px;
@@ -170,17 +146,16 @@ body .cybr-btn + .cybr-btn {
   bottom: -5%;
   right: 5%;
   font-weight: normal;
-  color: hsl(0deg, 0%, 0%);
+  color: rgb(44, 50, 59);
   font-size: var(--label-size);
 }
-
-.cybr-btn__glitch {
+.cyber-btn-container .cybr-btn__glitch {
   position: absolute;
   top: calc(var(--border) * -1);
   left: calc(var(--border) * -1);
   right: calc(var(--border) * -1);
   bottom: calc(var(--border) * -1);
-  background: var(--shadow-primary);
+  background: var(--shadow-primary) !important;
   text-shadow: 2px 2px var(--shadow-primary), -2px -2px var(--shadow-secondary);
   -webkit-clip-path: var(--clip);
           clip-path: var(--clip);
@@ -188,12 +163,10 @@ body .cybr-btn + .cybr-btn {
           animation: glitch 2s infinite;
   display: none;
 }
-
-.cybr-btn:hover .cybr-btn__glitch {
+.cyber-btn-container .cybr-btn:hover .cybr-btn__glitch {
   display: block;
 }
-
-.cybr-btn__glitch:before {
+.cyber-btn-container .cybr-btn__glitch:before {
   content: "";
   position: absolute;
   top: calc(var(--border) * 1);
@@ -202,10 +175,9 @@ body .cybr-btn + .cybr-btn {
   left: calc(var(--border) * 1);
   -webkit-clip-path: var(--clip);
           clip-path: var(--clip);
-  background: var(--primary);
+  background: var(--primary) !important;
   z-index: -1;
 }
-
 @-webkit-keyframes glitch {
   0% {
     -webkit-clip-path: var(--clip-one);
@@ -281,7 +253,6 @@ body .cybr-btn + .cybr-btn {
             clip-path: var(--clip-four);
   }
 }
-
 @keyframes glitch {
   0% {
     -webkit-clip-path: var(--clip-one);
@@ -357,6 +328,6 @@ body .cybr-btn + .cybr-btn {
             clip-path: var(--clip-four);
   }
 }
-.cybr-btn:nth-of-type(2) {
+.cyber-btn-container .cybr-btn:nth-of-type(2) {
   --primary-hue: 260;
 }/*# sourceMappingURL=cyberbtn.css.map */

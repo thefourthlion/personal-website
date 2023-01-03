@@ -60,8 +60,11 @@
 
 @media (max-width: 900px) {
   .Navbar {
+    color: rgb(44, 50, 59) !important;
     background-color: rgb(228, 227, 222);
-    max-height: 75px;
+  }
+  .Navbar a {
+    color: rgb(44, 50, 59) !important;
   }
   .Navbar .nav-title {
     display: block;
@@ -70,15 +73,12 @@
     background-color: rgb(228, 227, 222);
     position: absolute;
     height: 100vh;
-    top: 75px;
+    top: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
     transition: transform 0.5s ease-in;
     width: 100vw;
-  }
-  .Navbar a {
-    color: var(--clr-light-blue);
   }
   .Navbar #nav-hidden {
     transform: translateX(100%);

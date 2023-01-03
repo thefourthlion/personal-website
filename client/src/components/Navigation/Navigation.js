@@ -13,11 +13,13 @@ export default function Navigation() {
             Home
           </a>
         </li>
+
         <li className="nav-item">
           <a className="nav-bio" href="./#Bio">
             Bio
           </a>
         </li>
+
         <li className="nav-item">
           <a className="nav-tech" href="./#Tech">
             Tech
@@ -29,23 +31,21 @@ export default function Navigation() {
             Portfolio
           </a>
         </li>
-        <li className="nav-item">
-          <a className="nav-contact" href="./#Contact">
-            Contact
-          </a>
-        </li>
+
         <li>
-          <a>
-            <button className="mode-btn cybr-btn">
-              Dark Mode_
-              <span aria-hidden id="glitch" className="cybr-btn__glitch">
-                Dark Mode_
-              </span>
-              <span aria-hidden id="tag" className="cybr-btn__tag">
-                ED5
-              </span>
-            </button>
-          </a>
+          <div className="cyber-btn-container">
+            <a className="nav-contact" href="./#Contact">
+              <button className="mode-btn cybr-btn">
+                Contact_Me_
+                <span aria-hidden id="glitch" className="cybr-btn__glitch">
+                  Contact_Me_
+                </span>
+                <span aria-hidden id="tag" className="cybr-btn__tag">
+                  ED5
+                </span>
+              </button>
+            </a>
+          </div>
         </li>
       </ul>
       <h1 className="nav-title">Everett De Leon</h1>

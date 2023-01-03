@@ -1,36 +1,21 @@
 .PostProject {
   padding-top: 95px;
-  display: -webkit-box;
-  display: -ms-flexbox;
+}
+.PostProject .container {
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
-
-.PostProject label {
-  font-size: 1.4rem;
+.PostProject .form-label {
+  width: 350px;
+  margin: 0 auto;
 }
-
-.PostProject input {
-  display: block;
-  margin: 10px 0 10px 0;
-  height: 30px;
-}
-
 .PostProject textarea {
-  margin: 10px 0 10px 0;
-  display: block;
+  width: 350px;
+  height: 200px;
 }
-
 .PostProject .delete-btn {
   display: inline;
-}
-
-.PostProject button {
-  margin-top: 20px;
-}
-/*# sourceMappingURL=PostProject.css.map */
+}/*# sourceMappingURL=PostProject.css.map */

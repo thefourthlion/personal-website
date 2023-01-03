@@ -1,35 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap");
+@font-face {
+  font-family: Cyber;
+  src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+  font-display: swap;
+}
+* {
+  box-sizing: border-box;
+}
+
 body {
   padding: 0;
   margin: 0;
-  background: rgb(44, 50, 59);
   text-align: center;
-  color: rgb(44, 50, 59);
-  background-color: rgb(228, 227, 222);
-  overflow-x: hidden;
-}
-body .green {
-  color: #3dd230;
-}
-body .red {
-  color: red !important;
-}
-body .pink {
-  color: #d034d3;
-}
-body a {
-  color: rgb(44, 50, 59);
-}
-body a:hover {
-  color: rgb(60, 207, 47);
-}
-body .red-outline-btn {
-  border: 2px solid red;
-  border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0);
-}
-body a {
-  color: rgb(44, 50, 59);
+  font-family: "Cyber", sans-serif;
 }
 body h1 {
   font-size: 2.5rem;
@@ -40,6 +22,128 @@ body h3 {
 body p {
   font-size: 1.5rem;
 }
+body .form-input:focus {
+  border-color: #3dd230;
+  box-shadow: none;
+  outline: 0 none;
+}
+body textarea {
+  border-radius: 5px;
+  border-color: lightgray;
+  box-shadow: none;
+  outline: 0 none;
+}
+body textarea:focus {
+  border-color: #3dd230;
+}
+body textarea::-moz-placeholder {
+  color: rgb(44, 50, 59);
+}
+body textarea:-ms-input-placeholder {
+  color: rgb(44, 50, 59);
+}
+body textarea::placeholder {
+  color: rgb(44, 50, 59);
+}
 body .svg-all {
   max-width: 800px;
+}
+body .green-outline-btn {
+  border: 2px solid #3dd230;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0);
+}
+body .red-outline-btn {
+  border: 2px solid red;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0);
+}
+body .green {
+  color: #3dd230;
+}
+body .red {
+  color: red !important;
+}
+body .pink {
+  color: #d034d3;
+}
+
+.svg-theme-btn {
+  top: 7px;
+  left: 350px;
+  z-index: 3;
+  position: fixed;
+  width: 75px;
+  height: auto;
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .svg-theme-btn {
+    top: -10px;
+    left: 10px;
+  }
+}
+.light {
+  background-color: rgb(228, 227, 222);
+  color: rgb(44, 50, 59);
+}
+.light a {
+  color: rgb(44, 50, 59);
+}
+.light a:hover {
+  color: rgb(60, 207, 47);
+}
+.light input {
+  background-color: whitesmoke;
+}
+.light textarea {
+  background-color: whitesmoke;
+}
+.light input:focus {
+  background-color: whitesmoke;
+}
+.light textarea:focus {
+  background-color: whitesmoke;
+}
+.light textarea::-moz-placeholder {
+  color: rgb(44, 50, 59);
+}
+.light textarea:-ms-input-placeholder {
+  color: rgb(44, 50, 59);
+}
+.light textarea::placeholder {
+  color: rgb(44, 50, 59);
+}
+
+.dark {
+  background-color: rgb(44, 50, 59);
+  color: rgb(228, 227, 222);
+}
+.dark a {
+  color: rgb(228, 227, 222) !important;
+}
+.dark a:hover {
+  color: rgb(60, 207, 47) !important;
+}
+.dark input {
+  background-color: rgb(56, 63, 73);
+}
+.dark textarea {
+  background-color: rgb(56, 63, 73);
+}
+.dark input:focus {
+  background-color: rgb(56, 63, 73);
+}
+.dark textarea:focus {
+  background-color: rgb(56, 63, 73);
+}
+.dark textarea::-moz-placeholder {
+  color: rgb(228, 227, 222);
+}
+.dark textarea:-ms-input-placeholder {
+  color: rgb(228, 227, 222);
+}
+.dark textarea::placeholder {
+  color: rgb(228, 227, 222);
 }/*# sourceMappingURL=main.css.map */

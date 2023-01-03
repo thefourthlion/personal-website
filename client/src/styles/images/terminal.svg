@@ -1,0 +1,47 @@
+<svg width="781" height="659" viewBox="0 0 781 659" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="781" height="659" fill="#E5E5E5"/>
+<g id="Desktop - 1" clip-path="url(#clip0_0_1)">
+<rect width="781" height="659" fill="white"/>
+<rect id="terminal" width="781" height="659" fill="#151515"/>
+<rect id="termional-input" x="24" y="64" width="735" height="581" fill="black"/>
+<g id="bio-hamburger">
+<line id="Line 1" x1="25" y1="24.5" x2="60" y2="24.5" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 2" x1="25" y1="35.5" x2="60" y2="35.5" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 3" x1="25" y1="47.5" x2="60" y2="47.5" stroke="#A6A3A3" stroke-width="3"/>
+</g>
+<g id="browser-menu-items">
+<rect id="Rectangle 3" x="687.5" y="24.425" width="26" height="26" stroke="#C4C4C4" stroke-width="3"/>
+<line id="Line 4" x1="760.061" y1="23.0607" x2="731.561" y2="51.5607" stroke="#C4C4C4" stroke-width="3"/>
+<line id="Line 5" x1="731.561" y1="22.3644" x2="760.061" y2="50.8644" stroke="#C4C4C4" stroke-width="3"/>
+<line id="Line 6" x1="645" y1="36.425" x2="671" y2="36.425" stroke="#C4C4C4" stroke-width="3"/>
+</g>
+<text id="bio-title" fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="24" letter-spacing="0em"><tspan x="283" y="41.2031">MINGW64:/e/Bio</tspan></text>
+<g id="dir1">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="17" letter-spacing="0em"><tspan x="369.368" y="93.8105">/e/Bio</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="17" letter-spacing="0em"><tspan x="287.738" y="93.8105">MINGW64</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="17" letter-spacing="0em"><tspan x="283.521" y="93.8105"> </tspan><tspan x="365.151" y="93.8105"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="17" letter-spacing="0em"><tspan x="34" y="93.8105">theforthlion@DESKTOP-3MT17I6</tspan></text>
+</g>
+<g id="dir2">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="17" letter-spacing="0em"><tspan x="369.368" y="391.811">/e/Bio</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="17" letter-spacing="0em"><tspan x="287.738" y="391.811">MINGW64</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="17" letter-spacing="0em"><tspan x="283.521" y="391.811"> </tspan><tspan x="365.151" y="391.811"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="17" letter-spacing="0em"><tspan x="34" y="391.811">theforthlion@DESKTOP-3MT17I6</tspan></text>
+</g>
+<g id="bio-about">
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="45.25" y="116.336"> echo </tspan><tspan x="34" y="139.336">I am deeply passionate about technology and am constantly seeking new ways </tspan><tspan x="34" y="162.336">to learn and grow in the field. I have taught myself a variety of technical skills, </tspan><tspan x="34" y="185.336">including coding in Java and building websites with HTML, CSS, and JavaScript. </tspan><tspan x="34" y="208.336">I have even started my own web development company as a full stack developer, </tspan><tspan x="34" y="231.336">using front-end frameworks like React and NextJS. In addition to these skills, I </tspan><tspan x="34" y="254.336">have also dabbled in Python and experimented with open source AI tools, built </tspan><tspan x="34" y="277.336">numerous PCs from scratch, and used Raspberry Pis to create a range of </tspan><tspan x="34" y="300.336">exciting projects. As I continue my journey of lifelong learning, pursuing a degree </tspan><tspan x="34" y="323.336">in computer programming and staying up-to-date with the latest technologies, I </tspan><tspan x="34" y="346.336">am constantly amazed by the endless possibilities that this field offers and am </tspan><tspan x="34" y="369.336">driven to continue learning and growing.</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="34" y="116.336">$</tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="98.668" y="116.336">$about&#13;&#10;</tspan></text>
+</g>
+<g id="bio-hobbies">
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="45.25" y="417.336"> echo </tspan><tspan x="34" y="440.336">As someone who is constantly seeking new and exciting ways to challenge </tspan><tspan x="34" y="463.336">myself and explore my passions, I am fortunate to have a diverse range of </tspan><tspan x="34" y="486.336">hobbies that allow me to do so. These hobbies include flying drones to capture </tspan><tspan x="34" y="509.336">breathtaking aerial perspectives, immersing myself in the world of video games, </tspan><tspan x="34" y="532.336">challenging myself physically through activities like dirt bike riding and hiking, </tspan><tspan x="34" y="555.336">indulging in my love of reading, honing my coding skills, experimenting in the </tspan><tspan x="34" y="578.336">kitchen as a skilled cook, and creating beautiful and functional pieces through </tspan><tspan x="34" y="601.336">woodworking. Overall, my hobbies provide a rich tapestry of interests that allow </tspan><tspan x="34" y="624.336">me to learn, grow, and challenge myself in a variety of ways.</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="34" y="417.336">$</tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="98.668" y="417.336">$hobbies&#13;&#10;</tspan></text>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_1">
+<rect width="781" height="659" fill="white"/>
+</clipPath>
+</defs>
+</svg>

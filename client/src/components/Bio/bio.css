@@ -1,4 +1,8 @@
 .svg-bio {
   padding-top: 90px;
   margin: 0 10px;
+}
+.svg-bio .bio-terminal {
+  width: 450px;
+  height: auto;
 }/*# sourceMappingURL=bio.css.map */
