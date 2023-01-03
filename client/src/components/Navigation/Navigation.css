@@ -62,6 +62,7 @@
   .Navbar {
     color: rgb(44, 50, 59) !important;
     background-color: rgb(228, 227, 222);
+    height: 75px;
   }
   .Navbar a {
     color: rgb(44, 50, 59) !important;

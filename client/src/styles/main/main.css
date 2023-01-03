@@ -8,6 +8,7 @@
 }
 
 body {
+  position: relative;
   padding: 0;
   margin: 0;
   text-align: center;
@@ -80,8 +81,8 @@ body .pink {
 
 @media (max-width: 900px) {
   .svg-theme-btn {
-    top: -10px;
-    left: 10px;
+    top: 82px;
+    left: 25px;
   }
 }
 .light {
