@@ -1,4 +1,4 @@
-@import "../Variables/Variables.scss";
+@import "../../styles/Variables/Variables.scss";
 .Contact {
   font-size: 2.5rem;
   display: flex;
@@ -43,7 +43,6 @@ textarea {
 .submit-btn {
   font-size: 1.5rem;
   padding: 5px 15px;
-  background-color: $white;
   border-radius: 5px;
 }
 

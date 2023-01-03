@@ -18,12 +18,17 @@ body {
   .pink {
     color: $pink;
   }
+  a {
+    color: $github-gray;
+  }
+  a:hover {
+    color: $hacker-green;
+  }
 
-
-  .red-outline-btn{
+  .red-outline-btn {
     border: 2px solid red;
     border-radius: 5px;
-    background-color: rgba(255,255,255,0);
+    background-color: rgba(255, 255, 255, 0);
   }
   a {
     color: $github-gray;
@@ -40,7 +45,4 @@ body {
   .svg-all {
     max-width: 800px;
   }
-
-
-
 }

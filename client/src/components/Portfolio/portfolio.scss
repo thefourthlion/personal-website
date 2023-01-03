@@ -14,7 +14,7 @@
     // grid-template-columns: repeat(2, 600px);
   }
 
-  .header-link{
+  .header-link {
     text-decoration: none;
   }
   .portfolio-component {
@@ -46,13 +46,7 @@
     font-weight: bold;
     font-style: italic;
   }
-  a {
-    color: $github-gray;
-  }
 
-  a:hover {
-    color: $hacker-green;
-  }
   p {
     font-size: 17px;
   }

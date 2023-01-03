@@ -1,11 +1,7 @@
 .Contact {
   font-size: 2.5rem;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
   margin-top: 55px;
 }
 
@@ -14,13 +10,8 @@
 }
 
 .contact-form {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .form-text-input {
@@ -52,11 +43,9 @@ textarea {
 .submit-btn {
   font-size: 1.5rem;
   padding: 5px 15px;
-  background-color: #e4e3de;
   border-radius: 5px;
 }
 
 .mobile-break {
   display: none;
-}
-/*# sourceMappingURL=contact.css.map */
+}/*# sourceMappingURL=contact.css.map */
