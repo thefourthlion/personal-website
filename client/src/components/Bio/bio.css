@@ -2,7 +2,10 @@
   padding-top: 90px;
   margin: 0 10px;
 }
-.svg-bio .bio-terminal-svg {
-  width: 45px;
-  height: 45px;
+
+@media (max-width: 900px) {
+  .bio-terminal-svg {
+    width: 85vw;
+    height: auto;
+  }
 }/*# sourceMappingURL=bio.css.map */

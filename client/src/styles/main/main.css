@@ -8,7 +8,6 @@
 }
 
 body {
-  position: relative;
   padding: 0;
   margin: 0;
   text-align: center;
@@ -23,6 +22,9 @@ body h3 {
 body p {
   font-size: 1.5rem;
 }
+body .form-label {
+  box-shadow: 9px 9px 4px -6px hsla(0deg, 0%, 0%, 0.3);
+}
 body .form-input:focus {
   border-color: #3dd230;
   box-shadow: none;
@@ -33,6 +35,7 @@ body textarea {
   border-color: lightgray;
   box-shadow: none;
   outline: 0 none;
+  box-shadow: 9px 9px 4px -6px hsla(0deg, 0%, 0%, 0.3);
 }
 body textarea:focus {
   border-color: #3dd230;
@@ -75,6 +78,12 @@ body .red {
 }
 body .pink {
   color: #d034d3;
+}
+
+#Bio,
+#Portfolio,
+#Contact {
+  scroll-margin-top: 85px;
 }
 
 .svg-theme-btn {

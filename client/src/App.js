@@ -11,6 +11,7 @@ import Login from "./pages/Login/Login";
 import Footer from "./components/Footer/Footer";
 import PostProject from "./pages/PostProject/PostProject";
 import ImproveForm from "./pages/ImproveForm/ImproveForm";
+import BooksRead from "./pages/BooksRead/BooksRead";
 import { ReactComponent as Moon } from "./styles/images/moon.svg";
 import { ReactComponent as Sun } from "./styles/images/sun.svg";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -61,11 +62,19 @@ export default function App() {
               }
             />
             <Route
+              path="/books-read"
+              element={
+                <div>
+                  <BooksRead className={`${theme}`} />
+                </div>
+              }
+            />
+            <Route
               exact
               path="/enter-project"
               element={
                 <ProtectedRoute>
-                  <PostProject />
+                  <PostProject className={`${theme}`} />
                 </ProtectedRoute>
               }
             />
@@ -74,7 +83,7 @@ export default function App() {
               path="/library"
               element={
                 <ProtectedRoute>
-                  <Library />
+                  <Library className={`${theme}`} />
                 </ProtectedRoute>
               }
             />
@@ -83,7 +92,7 @@ export default function App() {
               path="/journal"
               element={
                 <ProtectedRoute>
-                  <Journal />
+                  <Journal className={`${theme}`} />
                 </ProtectedRoute>
               }
             />

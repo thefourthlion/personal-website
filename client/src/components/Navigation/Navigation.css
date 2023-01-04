@@ -39,11 +39,10 @@
 .Navbar a {
   text-decoration: none;
 }
-
-.nav-item a:hover {
+.Navbar .nav-item a:hover {
   color: rgb(60, 207, 47);
 }
-.nav-item a::before {
+.Navbar .nav-item a::before {
   content: "";
   position: relative;
   display: block;
@@ -54,12 +53,12 @@
   transform: scaleX(0);
   transition: transform 0.3s ease;
 }
-.nav-item a:hover::before {
+.Navbar .nav-item a:hover::before {
   transform: scaleX(1);
 }
-
 @media (max-width: 900px) {
   .Navbar {
+    position: fixed;
     color: rgb(44, 50, 59) !important;
     background-color: rgb(228, 227, 222);
     height: 75px;
@@ -73,7 +72,7 @@
   .Navbar .nav-links {
     background-color: rgb(228, 227, 222);
     position: absolute;
-    height: calc(100vh - 223px);
+    height: calc(100vh - 75px);
     top: 75px;
     display: flex;
     flex-direction: column;

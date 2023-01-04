@@ -1,9 +1,11 @@
 .svg-bio {
   padding-top: 90px;
   margin: (0 10px);
+}
 
+@media (max-width: 900px) {
   .bio-terminal-svg {
-    width: 45px;
-    height: 45px;
+    width: 85vw;
+    height: auto;
   }
 }

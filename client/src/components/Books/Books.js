@@ -10,7 +10,7 @@ const Books = () => {
   }, []);
 
   const getBook = () => {
-    Axios.get("http://api.everettdeleon/api/library/read").then((res) => {
+    Axios.get("http://api.everettdeleon.com/api/library/read").then((res) => {
       const data = res.data;
       setBooks(data);
       console.log(data);

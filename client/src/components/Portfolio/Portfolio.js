@@ -12,12 +12,13 @@ export default function Portfolio() {
   function PortfolioEntry(props) {
     return (
       <div className="portfolio-component">
-        <a href={props.webLink}>
+        <a className="website-link" href={props.webLink}>
           <img
             src={props.imageLink}
             alt="portfolio"
             className="portfolio-pic"
           />
+          <h1 className="view-website">View Website</h1>
         </a>
         <a href={props.webLink} className="header-link">
           <h2 className="portfolio-header">
@@ -25,7 +26,7 @@ export default function Portfolio() {
           </h2>
         </a>
         <a href={props.githubLink} className="portfolio-githublink">
-          Check out the code on github.
+          <p>Check out the code on github.</p>
         </a>
         <p className="portfolio-description">{props.projectDescription}</p>
       </div>
@@ -48,55 +49,6 @@ export default function Portfolio() {
             </div>
           );
         })}
-        {/* <PortfolioEntry
-          src={trax}
-          website="https://trax-cointracker.netlify.app/"
-          github="https://github.com/theforthli0n/trax-cointracker"
-          name="Trax Crypto Tracker"
-          description="Trax is a cryptocurrency tracker written with React that uses a coingecko api. All data is live and accurate."
-        />
-        <PortfolioEntry
-          src={sr}
-          website="https://www.savagerabbits.io/"
-          github="https://github.com/theforthli0n/savage-rabbits-website"
-          name="Savage Rabbits NFTs"
-          description="The Savage Rabbits are interactive nfts, built on the Cardano blockchain."
-        />
-        <PortfolioEntry
-          src={horoscope}
-          website="https://daily-scopes.netlify.app/"
-          github="https://github.com/theforthli0n/horoscope"
-          name="Free Daily Horoscope"
-          description="This horoscope website is a React application that generates a daily horoscope based on a horoscope api."
-        />
-        <PortfolioEntry
-          src={gif}
-          website="https://theforthlion-gif-search.netlify.app/"
-          github="https://github.com/theforthli0n/gifSearchEngine"
-          name="Gif Search Engine"
-          description="Using the most used gif api in the world Giphy. I created a gif search engine, which of course automatically searches cute cats."
-        />
-        <PortfolioEntry
-          src={flappy}
-          website="https://flappy-copy.netlify.app/"
-          github="https://github.com/theforthli0n/flappy-init"
-          name="Flappy Bird Clone"
-          description="Definitely not the first of its kind. But this is a very simply flappy bird clone written in JavaScript. "
-        />
-        <PortfolioEntry
-          src={notation}
-          website="https://notation-notes.netlify.app/"
-          github="https://github.com/theforthli0n/notation-notes"
-          name="Notation"
-          description="Notation is a note taking app that i wrote when i first learned React. It's simple but sweet."
-        />
-        <PortfolioEntry
-          src={joke}
-          website="https://got-a-joke.netlify.app/"
-          github="https://github.com/theforthli0n/got-a-joke"
-          name="Joke Generator"
-          description="This application was written using React and uses an api to generate random jokes. I love to lighten the mood, so i made an app for it."
-        /> */}
       </div>
     </div>
   );

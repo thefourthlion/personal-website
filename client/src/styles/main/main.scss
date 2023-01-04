@@ -11,7 +11,7 @@
 }
 
 body {
-  position: relative;
+  // position: relative;
   padding: 0;
   margin: 0;
   text-align: center;
@@ -29,6 +29,10 @@ body {
     font-size: 1.5rem;
   }
 
+  .form-label {
+    box-shadow: 9px 9px 4px -6px hsla(0, 0%, 0%, 0.3);
+  }
+
   .form-input:focus {
     border-color: $green;
     box-shadow: none;
@@ -40,6 +44,7 @@ body {
     border-color: lightgray;
     box-shadow: none;
     outline: 0 none;
+    box-shadow: 9px 9px 4px -6px hsla(0, 0%, 0%, 0.3);
   }
 
   textarea:focus {
@@ -87,6 +92,12 @@ body {
   .pink {
     color: $pink;
   }
+}
+
+#Bio,
+#Portfolio,
+#Contact {
+  scroll-margin-top: 85px;
 }
 
 .svg-theme-btn {
