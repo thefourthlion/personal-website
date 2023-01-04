@@ -9,7 +9,7 @@ const Notes = () => {
   }, []);
 
   const getNote = () => {
-    Axios.get("http://localhost:3001/api/journal/read").then((res) => {
+    Axios.get("http://api.everettdeleon/api/journal/read").then((res) => {
       const data = res.data;
       setNotes(data);
       console.log(data);
@@ -17,11 +17,13 @@ const Notes = () => {
   };
 
   const deleteEntry = (id) => {
-    Axios.get(`http://localhost:3001/api/journal/delete/${id}`).then((res) => {
-      const data = res.data;
-      setNotes(data);
-      console.log(data);
-    });
+    Axios.get(`http://api.everettdeleon/api/journal/delete/${id}`).then(
+      (res) => {
+        const data = res.data;
+        setNotes(data);
+        console.log(data);
+      }
+    );
   };
 
   return (
