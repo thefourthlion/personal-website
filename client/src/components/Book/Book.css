@@ -1,16 +1,22 @@
-.Book {
-  margin-top: 25px;
-  margin-bottom: 125px;
-}
 .Book .container {
   display: flex;
   flex-direction: row;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 .Book img {
   width: 250px;
-  height: 300px;
+  height: auto;
   box-shadow: 9px 9px 4px -6px hsla(0deg, 0%, 0%, 0.3);
+}
+.Book .title {
+  font-size: 25px;
+  width: 250px;
+}
+.Book .author {
+  position: relative;
+  font-size: 20px;
+  width: 250px;
 }/*# sourceMappingURL=Book.css.map */

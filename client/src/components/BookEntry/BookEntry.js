@@ -62,6 +62,7 @@ const BookEntry = () => {
             className="form-input"
             type="text"
             placeholder="Date Book Finished"
+            value={date}
             onChange={(e) => {
               setDateFinished(e.target.value);
             }}
