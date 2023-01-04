@@ -12,7 +12,7 @@ const NoteEntry = () => {
   }
 
   const sendForm = () => {
-    Axios.post("http://api.everettdeleon/api/journal/create", {
+    Axios.post("https://api.everettdeleon.com/api/journal/create", {
       header: header,
       entry: entry,
       timestamp: date,
