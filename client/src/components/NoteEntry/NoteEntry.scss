@@ -1,0 +1,19 @@
+.NoteEntry {
+  font-size: 1.25rem;
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  button {
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+
+  textarea {
+    padding-left: 15px;
+    padding-top: 15px;
+    height: 125px;
+  }
+}

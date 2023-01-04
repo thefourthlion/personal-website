@@ -1,0 +1,12 @@
+.BookEntry {
+  font-size: 1.25rem;
+}
+.BookEntry .container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.BookEntry button {
+  margin-top: 5px;
+  border-radius: 5px;
+}/*# sourceMappingURL=BookEntry.css.map */

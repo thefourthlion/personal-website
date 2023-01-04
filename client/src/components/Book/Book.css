@@ -1,0 +1,13 @@
+.Book {
+  margin-top: 25px;
+  margin-bottom: 125px;
+}
+.Book .container {
+  display: flex;
+  flex-direction: column;
+}
+.Book img {
+  width: 250px;
+  height: 300px;
+  box-shadow: 9px 9px 4px -6px hsla(0deg, 0%, 0%, 0.3);
+}/*# sourceMappingURL=Book.css.map */

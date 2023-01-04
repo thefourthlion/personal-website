@@ -14,7 +14,8 @@ import ImproveForm from "./pages/ImproveForm/ImproveForm";
 import { ReactComponent as Moon } from "./styles/images/moon.svg";
 import { ReactComponent as Sun } from "./styles/images/sun.svg";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-
+import Library from "./pages/Library/Library";
+import Journal from "./pages/Journal/Journal";
 export default function App() {
   const [theme, setTheme] = useState("light");
   const techName = document.querySelectorAll(".svg-tech-names");
@@ -65,6 +66,24 @@ export default function App() {
               element={
                 <ProtectedRoute>
                   <PostProject />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              exact
+              path="/library"
+              element={
+                <ProtectedRoute>
+                  <Library />
+                </ProtectedRoute>
+              }
+            />
+            <Route
+              exact
+              path="/journal"
+              element={
+                <ProtectedRoute>
+                  <Journal />
                 </ProtectedRoute>
               }
             />

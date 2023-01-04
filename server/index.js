@@ -57,3 +57,4 @@ app.listen(PORT, () => {
 app.use("/api/auth", require("./routes/auth"));
 app.use("/api/posts", require("./routes/posts"));
 app.use("/api/Contact", require("./routes/Contact"));
+app.use('/api/library', require('./routes/library'));app.use('/api/journal', require('./routes/journal'));

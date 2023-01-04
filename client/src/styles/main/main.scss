@@ -60,10 +60,20 @@ body {
     background-color: rgba(255, 255, 255, 0);
   }
 
+  .green-outline-btn:hover {
+    box-shadow: 9px 9px 4px -6px hsla(0, 0%, 0%, 0.3);
+    background-color: $off-white;
+  }
+
   .red-outline-btn {
     border: 2px solid red;
     border-radius: 5px;
     background-color: rgba(255, 255, 255, 0);
+  }
+
+  .red-outline-btn:hover {
+    box-shadow: 9px 9px 4px -6px hsla(0, 0%, 0%, 0.3);
+    background-color: $off-white;
   }
 
   .green {
