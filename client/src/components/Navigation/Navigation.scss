@@ -80,8 +80,8 @@
     .nav-links {
       background-color: $white;
       position: absolute;
-      height: 100vh;
-      top: 50px;
+      height: calc(100vh - 223px);
+      top: 75px;
       display: flex;
       flex-direction: column;
       align-items: center;
