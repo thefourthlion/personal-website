@@ -20,7 +20,7 @@ export default function Contact() {
   }
 
   const sendForm = () => {
-    Axios.post("http://api.everettdeleon.com/api/contact/create", {
+    Axios.post("https://api.everettdeleon.com/api/contact/create", {
       name: name,
       email: email,
       message: message,
