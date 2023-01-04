@@ -1,1 +1,1 @@
-{"version":3,"sources":["BookEntry.scss","BookEntry.css"],"names":[],"mappings":"AAAA;EACE,kBAAA;ACCF;ADAE;EACE,aAAA;EACA,sBAAA;EACA,SAAA;ACEJ;ADCE;EACE,eAAA;EACA,kBAAA;ACCJ","file":"BookEntry.css"}
+{"version":3,"sources":["BookEntry.scss","BookEntry.css"],"names":[],"mappings":"AAAA;EACE,kBAAA;EACA,mBAAA;ACCF;ADAE;EACE,aAAA;EACA,sBAAA;EACA,SAAA;ACEJ;ADCE;EACE,eAAA;EACA,kBAAA;ACCJ","file":"BookEntry.css"}

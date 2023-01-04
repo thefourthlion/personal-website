@@ -32,6 +32,12 @@ export default function Navigation() {
           </a>
         </li>
 
+        <li className="nav-item">
+          <a className="nav-portfolio" href="./books-read">
+            Books Read
+          </a>
+        </li>
+
         <li>
           <div className="cyber-btn-container">
             <a className="nav-contact" href="./#Contact">

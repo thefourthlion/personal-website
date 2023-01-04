@@ -13,12 +13,14 @@ const Books = () => {
     Axios.get("http://api.everettdeleon.com/api/library/read").then((res) => {
       const data = res.data;
       setBooks(data);
-      console.log(data);
+      // console.log(data);
     });
   };
 
   return (
     <div className="Books">
+      <h1>Books I've Finished</h1>
+      <hr />
       <div className="container">
         {books.map((val, key) => {
           return (
