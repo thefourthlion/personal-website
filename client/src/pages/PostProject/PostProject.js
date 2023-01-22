@@ -11,6 +11,10 @@ export default function PostProject() {
   const [githubLink, setGithubLink] = useState("");
   const [projectList, setProjectList] = useState([]);
 
+  const refreshPage = () => {
+    window.location.reload(false);
+  };
+
   useEffect(() => {
     Axios.get("https://api.everettdeleon.com/api/posts/read").then((res) => {
       setProjectList(res.data);
@@ -18,20 +22,19 @@ export default function PostProject() {
   }, []);
 
   const deleteProject = (id) => {
-    Axios.delete(`https://api.everettdeleon.com/delete/${id}`, {});
-    setTimeout(() => {
-      window.location.reload();
-    }, 1000);
+    Axios.delete(`https://api.everettdeleon.com/delete/${id}`, {}).then(
+      refreshPage()
+    );
   };
 
   const addProject = () => {
-    Axios.post("https://api.everettdeleon.com/api/post/post", {
+    Axios.post("https://api.everettdeleon.com/api/posts/create", {
       title: title,
       projectDescription: projectDescription,
       imageLink: imageLink,
       webLink: webLink,
       githubLink: githubLink,
-    });
+    }).then(refreshPage());
   };
 
   return (

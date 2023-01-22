@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./Books.css";
 import Book from "../Book/Book";
 import Axios from "axios";
+// import { motion } from "framer-motion";
 const Books = () => {
   const [books, setBooks] = useState([]);
 
