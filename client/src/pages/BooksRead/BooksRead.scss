@@ -1,3 +1,7 @@
 .BooksRead {
   padding-top: 125px;
+
+  @media (max-width: 900px) {
+    padding-top: 90px;
+  }
 }

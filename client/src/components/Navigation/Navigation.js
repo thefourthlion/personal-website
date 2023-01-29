@@ -53,8 +53,10 @@ export default function Navigation() {
             </a>
           </div>
         </li>
-      </ul>
-      <h1 className="nav-title">Everett De Leon</h1>
+      </ul>{" "}
+      <a href="/">
+        <h1 className="nav-title">Everett IV</h1>
+      </a>
       <div className="burger" onClick={() => setShowLinks(!showLinks)}>
         <div className="line1"></div>
         <div className="line2"></div>
