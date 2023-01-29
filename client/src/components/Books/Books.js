@@ -20,7 +20,10 @@ const Books = () => {
 
   return (
     <div className="Books">
-      <h1>Books I've Finished</h1>
+      <h1>I've Finished {books.length} Books. </h1>
+      <h2>(Since 2020)</h2>
+      <h3>“The more you know, the more you know you don't know.”</h3>
+      <h3>- Aristotle</h3>
       <hr />
       <div className="container">
         {books.map((val, key) => {
