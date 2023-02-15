@@ -43,9 +43,6 @@ body textarea:focus {
 body textarea::-moz-placeholder {
   color: rgb(44, 50, 59);
 }
-body textarea:-ms-input-placeholder {
-  color: rgb(44, 50, 59);
-}
 body textarea::placeholder {
   color: rgb(44, 50, 59);
 }
@@ -127,9 +124,6 @@ body .pink {
 .light textarea::-moz-placeholder {
   color: rgb(44, 50, 59);
 }
-.light textarea:-ms-input-placeholder {
-  color: rgb(44, 50, 59);
-}
 .light textarea::placeholder {
   color: rgb(44, 50, 59);
 }
@@ -157,9 +151,6 @@ body .pink {
   background-color: rgb(56, 63, 73);
 }
 .dark textarea::-moz-placeholder {
-  color: rgb(228, 227, 222);
-}
-.dark textarea:-ms-input-placeholder {
   color: rgb(228, 227, 222);
 }
 .dark textarea::placeholder {

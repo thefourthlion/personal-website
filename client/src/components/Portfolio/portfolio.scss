@@ -24,18 +24,19 @@
   }
 
   .portfolio-pic {
-    max-width: 500px;
-    max-height: 250px;
-    border: solid 2px $green;
+    object-fit: cover;
+    max-width: 500px !important;
+    max-height: 237px !important;
+    border: solid 3px $green;
     border-radius: 5px;
     padding: 5px;
     box-shadow: 9px 9px 4px -6px hsla(0, 0%, 0%, 0.3);
   }
 
-  .portfolio-pic:hover {
-    padding: 0px;
-    border: solid 4px $green;
-  }
+  // .portfolio-pic:hover {
+  //   padding: 0px;
+  //   border: solid 4px $green;
+  // }
 
   h2 {
     margin-top: 15px;
