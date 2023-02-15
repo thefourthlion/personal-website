@@ -22,9 +22,10 @@ export default function PostProject() {
   }, []);
 
   const deleteProject = (id) => {
-    Axios.delete(`https://api.everettdeleon.com/delete/${id}`, {}).then(
-      refreshPage()
-    );
+    Axios.delete(
+      `https://api.everettdeleon.com/api/posts/delete/${id}`,
+      {}
+    ).then(refreshPage());
   };
 
   const addProject = () => {
