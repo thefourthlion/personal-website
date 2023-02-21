@@ -1,0 +1,546 @@
+<svg  width="873" height="693" viewBox="0 0 873 693" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="tech-bg" filter="url(#filter0_d_2_2)">
+
+<text class="svg-tech-names" id="Haskell" fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="30" letter-spacing="0em"><tspan x="174.196" y="274.754">Haskell</tspan></text>
+<text class="svg-tech-names" id="HTML" fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="60" letter-spacing="0em"><tspan x="474.826" y="59.5078">HTML</tspan></text>
+<text class="svg-tech-names" id="Node" fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="60" letter-spacing="0em"><tspan x="178" y="77.5078">Node</tspan></text>
+<text class="svg-tech-names" id="jQuery" fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="40" letter-spacing="0em"><tspan x="55" y="176.172">jQuery</tspan></text>
+<text class="svg-tech-names" id="Processing" fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="40" letter-spacing="0em"><tspan x="586.653" y="165.172">Processing</tspan></text>
+<text class="svg-tech-names" id="Sass" fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="40" letter-spacing="0em"><tspan x="735.659" y="279.172">Sass</tspan></text>
+<text class="svg-tech-names" id="MongoDB" fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="30" letter-spacing="0em"><tspan x="324" y="274.754">MongoDB</tspan></text>
+<text class="svg-tech-names" id="Bash" fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="40" letter-spacing="0em"><tspan x="476.994" y="444.172">Bash</tspan></text>
+<text class="svg-tech-names" id="Linux" fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="60" letter-spacing="0em"><tspan x="343.378" y="517.508">Linux</tspan></text>
+<text class="svg-tech-names" id="Python" fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="60" letter-spacing="0em"><tspan x="310" y="178.508">Python</tspan></text>
+<text class="svg-tech-names" id="Plutus" fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="30" letter-spacing="0em"><tspan x="72.3027" y="420.754">Plutus</tspan></text>
+<text class="svg-tech-names" id="PostgreSQL" fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="40" letter-spacing="0em"><tspan x="564" y="358.172">PostgreSQL</tspan></text>
+<text class="svg-tech-names" id="Bootstrap" fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="40" letter-spacing="0em"><tspan x="102.102" y="567.172">Bootstrap</tspan></text>
+<text class="svg-tech-names" id="Solidity" fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="30" letter-spacing="0em"><tspan x="423.163" y="675.754">Solidity</tspan></text>
+<text class="svg-tech-names" id="CSS" fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="60" letter-spacing="0em"><tspan x="490.451" y="269.508">CSS</tspan></text>
+<text class="svg-tech-names" id="JavaScript" fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="80" letter-spacing="0em"><tspan x="583.694" y="545.344">Java</tspan><tspan x="583.694" y="639.344">Script</tspan></text>
+<text class="svg-tech-names" id="React" fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="60" letter-spacing="0em"><tspan x="194.383" y="647.508">React</tspan></text>
+<text class="svg-tech-names" id="Java" fill="black" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="40" letter-spacing="0em"><tspan x="248" y="445.172">Java</tspan></text>
+<g id="haskell-terminal">
+<rect id="terminal" x="176" y="277" width="470.72" height="397" fill="#151515"/>
+<rect id="termional-input" x="189.294" y="314.464" width="444.132" height="351.076" fill="black"/>
+<g id="bio-hamburger">
+<line id="Line 1" x1="189.898" y1="290.002" x2="211.047" y2="290.002" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 2" x1="189.898" y1="296.649" x2="211.047" y2="296.649" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 3" x1="189.898" y1="303.9" x2="211.047" y2="303.9" stroke="#A6A3A3" stroke-width="3"/>
+</g>
+<g id="browser-menu-items">
+<rect id="Rectangle 3" x="590.815" y="291.144" width="14.5236" height="14.5236" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 4" d="M631.03 291.061L616.03 306.121" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 5" d="M616.591 291L631.03 306.061" stroke="#C4C4C4" stroke-width="3"/>
+<line id="Line 6" x1="564.54" y1="297.208" x2="580.251" y2="297.208" stroke="#C4C4C4" stroke-width="3"/>
+</g>
+<text id="bio-title" fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="272" y="302.336">MINGW64:/e/Tech/Haskell</tspan><tspan x="272" y="325.336"></tspan></text>
+<g id="dir1">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="488.913" y="334.127">/e/Tech/Haskell</tspan><tspan x="193" y="352.127"></tspan><tspan x="193" y="370.127"></tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="416.887" y="334.127">MINGW64</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="413.166" y="334.127"> </tspan><tspan x="485.192" y="334.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="193" y="334.127">theforthlion@DESKTOP-3MT17I6</tspan></text>
+</g>
+<g id="desc">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="202.438" y="353.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="238.78" y="353.127"> $haskell-wiki</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="206.158" y="353.127">echo</tspan><tspan x="194" y="371.127">Haskell is a functional programming language that is designed </tspan><tspan x="194" y="389.127">to be purely functional, which means that it treats computation </tspan><tspan x="194" y="407.127">as the evaluation of mathematical functions and avoids side </tspan><tspan x="194" y="425.127">effects as much as possible. Haskell is named after the </tspan><tspan x="194" y="443.127">logician Haskell Curry, and it was first released in 1990.</tspan><tspan x="194" y="461.127">Haskell is commonly used in academia for teaching functional </tspan><tspan x="194" y="479.127">programming concepts, but it is also used in industry for a </tspan><tspan x="194" y="497.127">variety of applications, including financial modeling, data </tspan><tspan x="194" y="515.127">analysis, and web development. One of the key advantages of </tspan><tspan x="194" y="533.127">Haskell is that it has a strong type system, which can catch </tspan><tspan x="194" y="551.127">many errors at compile time and ensure that programs are </tspan><tspan x="194" y="569.127">correct and reliable. Haskell also has a rich ecosystem of </tspan><tspan x="194" y="587.127">libraries and tools, including the Cabal package manager and </tspan><tspan x="194" y="605.127">the Stack build tool. Haskell has a vibrant open-source </tspan><tspan x="194" y="623.127">community that is constantly contributing new libraries and </tspan><tspan x="194" y="641.127">tools to the language.</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="194" y="353.127">$</tspan></text>
+</g>
+</g>
+<g id="html-terminal">
+<rect id="terminal_2" x="169" y="63" width="470.72" height="397" fill="#151515"/>
+<rect id="termional-input_2" x="182.294" y="100.464" width="444.132" height="351.076" fill="black"/>
+<g id="bio-hamburger_2">
+<line id="Line 1_2" x1="182.898" y1="76.0023" x2="204.047" y2="76.0023" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 2_2" x1="182.898" y1="82.6492" x2="204.047" y2="82.6492" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 3_2" x1="182.898" y1="89.9003" x2="204.047" y2="89.9003" stroke="#A6A3A3" stroke-width="3"/>
+</g>
+<g id="browser-menu-items_2">
+<rect id="Rectangle 3_2" x="583.815" y="77.1442" width="14.5236" height="14.5236" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 4_2" d="M624.03 77.0607L609.03 92.1213" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 5_2" d="M609.591 77L624.03 92.0607" stroke="#C4C4C4" stroke-width="3"/>
+<line id="Line 6_2" x1="557.54" y1="83.2081" x2="573.251" y2="83.2081" stroke="#C4C4C4" stroke-width="3"/>
+</g>
+<text id="bio-title_2" fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="265" y="88.3359">MINGW64:/e/Tech/HTML</tspan><tspan x="265" y="111.336"></tspan></text>
+<g id="dir1_2">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="481.913" y="120.127">/e/Tech/HTML</tspan><tspan x="186" y="138.127"></tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="409.887" y="120.127">MINGW64</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="406.166" y="120.127"> </tspan><tspan x="478.192" y="120.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="186" y="120.127">theforthlion@DESKTOP-3MT17I6</tspan></text>
+</g>
+<g id="desc_2">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="195.438" y="139.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="231.78" y="139.127"> $html-wiki</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="199.158" y="139.127">echo</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="187" y="139.127">$</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="187" y="157.127">HTML (HyperText Markup Language) is a standard markup </tspan><tspan x="187" y="175.127">language used for creating web pages and web applications. It </tspan><tspan x="187" y="193.127">provides a set of tags that are used to structure the content of </tspan><tspan x="187" y="211.127">a web page and describe how it should be displayed in a web </tspan><tspan x="187" y="229.127">browser. HTML provides a way to create text, images, videos, </tspan><tspan x="187" y="247.127">forms, and other types of media on a web page and define how </tspan><tspan x="187" y="265.127">they should be arranged. HTML is used because it is the </tspan><tspan x="187" y="283.127">fundamental building block of the web. It provides the structure </tspan><tspan x="187" y="301.127">and content for every website and web application. With HTML, </tspan><tspan x="187" y="319.127">you can create a website from scratch or modify an existing </tspan><tspan x="187" y="337.127">website to meet your specific needs. HTML is a language that </tspan><tspan x="187" y="355.127">is easy to learn and widely supported by web browsers and web </tspan><tspan x="187" y="373.127">development tools. HTML is an essential part of web </tspan><tspan x="187" y="391.127">development and a valuable tool to learn for anyone who wants </tspan><tspan x="187" y="409.127">to create a website or web application.</tspan></text>
+</g>
+</g>
+<g id="node-terminal">
+<rect id="terminal_3" x="182" y="81" width="470.72" height="397" fill="#151515"/>
+<rect id="termional-input_3" x="195.294" y="118.464" width="444.132" height="351.076" fill="black"/>
+<g id="bio-hamburger_3">
+<line id="Line 1_3" x1="195.898" y1="94.0023" x2="217.047" y2="94.0023" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 2_3" x1="195.898" y1="100.649" x2="217.047" y2="100.649" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 3_3" x1="195.898" y1="107.9" x2="217.047" y2="107.9" stroke="#A6A3A3" stroke-width="3"/>
+</g>
+<g id="browser-menu-items_3">
+<rect id="Rectangle 3_3" x="596.815" y="95.1442" width="14.5236" height="14.5236" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 4_3" d="M637.03 95.0607L622.03 110.121" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 5_3" d="M622.591 95L637.03 110.061" stroke="#C4C4C4" stroke-width="3"/>
+<line id="Line 6_3" x1="570.54" y1="101.208" x2="586.251" y2="101.208" stroke="#C4C4C4" stroke-width="3"/>
+</g>
+<text id="bio-title_3" fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="278" y="106.336">MINGW64:/e/Tech/Node</tspan></text>
+<g id="dir1_3">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="494.913" y="138.127">/e/Tech/Node</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="422.887" y="138.127">MINGW64</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="419.166" y="138.127"> </tspan><tspan x="491.192" y="138.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="199" y="138.127">theforthlion@DESKTOP-3MT17I6</tspan></text>
+</g>
+<text id="desc_3" fill="#D9D9D9" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="200" y="157.127">NodeJS is an open-source, cross-platform JavaScript runtime </tspan><tspan x="200" y="175.127">environment that allows developers to run JavaScript code </tspan><tspan x="200" y="193.127">outside of a web browser. It is built on the V8 JavaScript </tspan><tspan x="200" y="211.127">engine, the same engine that powers Google Chrome, and </tspan><tspan x="200" y="229.127">provides an event-driven, non-blocking I/O model that makes it </tspan><tspan x="200" y="247.127">suitable for building scalable and high-performance </tspan><tspan x="200" y="265.127">applications. NodeJS is often used for building server-side </tspan><tspan x="200" y="283.127">applications and APIs, as well as for building command-line </tspan><tspan x="200" y="301.127">tools and scripts. It is particularly popular for building web </tspan><tspan x="200" y="319.127">applications with real-time features, such as chat applications </tspan><tspan x="200" y="337.127">and online games. NodeJS also has a large and vibrant </tspan><tspan x="200" y="355.127">ecosystem of third-party libraries and frameworks, which make </tspan><tspan x="200" y="373.127">it easier to build complex applications quickly and efficiently.</tspan></text>
+</g>
+<g id="postgresql-terminal">
+<rect id="terminal_4" x="93" y="291" width="470.72" height="397" fill="#151515"/>
+<rect id="termional-input_4" x="106.294" y="328.464" width="444.132" height="351.076" fill="black"/>
+<g id="bio-hamburger_4">
+<line id="Line 1_4" x1="106.898" y1="304.002" x2="128.047" y2="304.002" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 2_4" x1="106.898" y1="310.649" x2="128.047" y2="310.649" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 3_4" x1="106.898" y1="317.9" x2="128.047" y2="317.9" stroke="#A6A3A3" stroke-width="3"/>
+</g>
+<g id="browser-menu-items_4">
+<rect id="Rectangle 3_4" x="507.815" y="305.144" width="14.5236" height="14.5236" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 4_4" d="M548.03 305.061L533.03 320.121" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 5_4" d="M533.591 305L548.03 320.061" stroke="#C4C4C4" stroke-width="3"/>
+<line id="Line 6_4" x1="481.54" y1="311.208" x2="497.251" y2="311.208" stroke="#C4C4C4" stroke-width="3"/>
+</g>
+<text id="bio-title_4" fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="189" y="316.336">MINGW64:/e/Tech/PostgreSQL</tspan><tspan x="189" y="339.336"></tspan></text>
+<g id="dir1_4">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="405.913" y="348.127">/e/Tech/PostgreSQL</tspan><tspan x="110" y="366.127"></tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="333.887" y="348.127">MINGW64</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="330.166" y="348.127"> </tspan><tspan x="402.192" y="348.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="110" y="348.127">theforthlion@DESKTOP-3MT17I6</tspan></text>
+</g>
+<g id="desc_4">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="119.438" y="367.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="155.78" y="367.127"> $</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="123.158" y="367.127">echo</tspan><tspan x="111" y="385.127">PostgreSQL, also known as Postgres, is an open-source </tspan><tspan x="111" y="403.127">relational database management system (RDBMS) that is </tspan><tspan x="111" y="421.127">widely used for storing, retrieving, and managing structured </tspan><tspan x="111" y="439.127">data. It is known for its reliability, scalability, and extensibility, </tspan><tspan x="111" y="457.127">and is often used in mission-critical applications.</tspan><tspan x="111" y="475.127">PostgreSQL is based on the SQL language, but it has several </tspan><tspan x="111" y="493.127">advanced features that set it apart from other relational </tspan><tspan x="111" y="511.127">database management systems. For example, it supports </tspan><tspan x="111" y="529.127">complex data types, such as arrays and JSON, and has built-in </tspan><tspan x="111" y="547.127">support for full-text search, spatial data, and XML.</tspan><tspan x="111" y="565.127">PostgreSQL is often used in web applications, particularly in </tspan><tspan x="111" y="583.127">data-driven applications that require a high degree of scalability </tspan><tspan x="111" y="601.127">and reliability. It can handle large amounts of data and can be </tspan><tspan x="111" y="619.127">easily scaled to handle high traffic volumes. Additionally, </tspan><tspan x="111" y="637.127">because it is open-source, it is free to use and can be </tspan><tspan x="111" y="655.127">customized to fit the specific needs of an application.</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="111" y="367.127">$</tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="167.938" y="367.127">postgreSQL</tspan></text>
+</g>
+</g>
+<g id="jquery-terminal">
+<rect id="terminal_5" x="53" y="189" width="470.72" height="397" fill="#151515"/>
+<rect id="termional-input_5" x="66.2938" y="226.464" width="444.132" height="351.076" fill="black"/>
+<g id="bio-hamburger_5">
+<line id="Line 1_5" x1="66.898" y1="202.002" x2="88.0472" y2="202.002" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 2_5" x1="66.898" y1="208.649" x2="88.0472" y2="208.649" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 3_5" x1="66.898" y1="215.9" x2="88.0472" y2="215.9" stroke="#A6A3A3" stroke-width="3"/>
+</g>
+<g id="browser-menu-items_5">
+<rect id="Rectangle 3_5" x="467.815" y="203.144" width="14.5236" height="14.5236" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 4_5" d="M508.03 203.061L493.03 218.121" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 5_5" d="M493.591 203L508.03 218.061" stroke="#C4C4C4" stroke-width="3"/>
+<line id="Line 6_5" x1="441.54" y1="209.208" x2="457.251" y2="209.208" stroke="#C4C4C4" stroke-width="3"/>
+</g>
+<text id="bio-title_5" fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="149" y="214.336">MINGW64:/e/Tech/jQuery</tspan><tspan x="149" y="237.336"></tspan></text>
+<g id="dir1_5">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="365.913" y="246.127">/e/Tech/jQuery</tspan><tspan x="70" y="264.127"></tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="293.887" y="246.127">MINGW64</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="290.166" y="246.127"> </tspan><tspan x="362.192" y="246.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="70" y="246.127">theforthlion@DESKTOP-3MT17I6</tspan></text>
+</g>
+<g id="desc_5">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="79.4375" y="265.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="115.78" y="265.127"> $jquery</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="83.1582" y="265.127">echo</tspan><tspan x="71" y="283.127">jQuery is a fast, small, and feature-rich JavaScript library that </tspan><tspan x="71" y="301.127">simplifies web development. It provides a variety of utilities that </tspan><tspan x="71" y="319.127">make it easier to manipulate HTML documents, handle events, </tspan><tspan x="71" y="337.127">create animations, and make AJAX requests to the server. </tspan><tspan x="71" y="355.127">jQuery is cross-platform and compatible with all modern web </tspan><tspan x="71" y="373.127">browsers. jQuery is commonly used in front-end web </tspan><tspan x="71" y="391.127">development for creating dynamic and interactive user </tspan><tspan x="71" y="409.127">interfaces. It is often used to create animations, add visual </tspan><tspan x="71" y="427.127">effects, and enhance user experience. jQuery is also used for </tspan><tspan x="71" y="445.127">client-side form validation and handling form submissions, as </tspan><tspan x="71" y="463.127">well as for making AJAX requests to the server to fetch or </tspan><tspan x="71" y="481.127">submit data without requiring a page reload. Overall, jQuery is a </tspan><tspan x="71" y="499.127">versatile tool that simplifies web development and enhances </tspan><tspan x="71" y="517.127">the functionality of web applications.</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="71" y="265.127">$</tspan></text>
+</g>
+</g>
+<g id="python-terminal">
+<rect id="terminal_6" x="313" y="195" width="470.72" height="397" fill="#151515"/>
+<rect id="termional-input_6" x="326.294" y="232.464" width="444.132" height="351.076" fill="black"/>
+<g id="bio-hamburger_6">
+<line id="Line 1_6" x1="326.898" y1="208.002" x2="348.047" y2="208.002" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 2_6" x1="326.898" y1="214.649" x2="348.047" y2="214.649" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 3_6" x1="326.898" y1="221.9" x2="348.047" y2="221.9" stroke="#A6A3A3" stroke-width="3"/>
+</g>
+<g id="browser-menu-items_6">
+<rect id="Rectangle 3_6" x="727.815" y="209.144" width="14.5236" height="14.5236" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 4_6" d="M768.03 209.061L753.03 224.121" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 5_6" d="M753.591 209L768.03 224.061" stroke="#C4C4C4" stroke-width="3"/>
+<line id="Line 6_6" x1="701.54" y1="215.208" x2="717.251" y2="215.208" stroke="#C4C4C4" stroke-width="3"/>
+</g>
+<text id="bio-title_6" fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="409" y="220.336">MINGW64:/e/Tech/Python</tspan></text>
+<g id="dir1_6">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="625.913" y="252.127">/e/Tech/Python</tspan><tspan x="330" y="270.127"></tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="553.887" y="252.127">MINGW64</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="550.166" y="252.127"> </tspan><tspan x="622.192" y="252.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="330" y="252.127">theforthlion@DESKTOP-3MT17I6</tspan></text>
+</g>
+<g id="desc_6">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="339.438" y="271.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="375.78" y="271.127"> $python-wiki</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="343.158" y="271.127">echo</tspan><tspan x="331" y="289.127">Python is a high-level programming language that is </tspan><tspan x="331" y="307.127">interpreted, object-oriented, and dynamically typed. It was first </tspan><tspan x="331" y="325.127">released in 1991 and has since become one of the most </tspan><tspan x="331" y="343.127">popular programming languages in use today. Python is known </tspan><tspan x="331" y="361.127">for its simple syntax, ease of learning, and large standard </tspan><tspan x="331" y="379.127">library, which makes it a versatile language used in a wide </tspan><tspan x="331" y="397.127">range of applications. Python is commonly used in many fields </tspan><tspan x="331" y="415.127">including web development, scientific computing, data analysis, </tspan><tspan x="331" y="433.127">artificial intelligence and machine learning, automation, and </tspan><tspan x="331" y="451.127">game development. It is a popular choice for building web </tspan><tspan x="331" y="469.127">applications and backend systems, often in conjunction with </tspan><tspan x="331" y="487.127">web frameworks like Django or Flask. In the scientific </tspan><tspan x="331" y="505.127">computing and data analysis fields, Python is often used for </tspan><tspan x="331" y="523.127">processing and analyzing large datasets, as well as for building </tspan><tspan x="331" y="541.127">visualizations.</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="331" y="271.127">$</tspan></text>
+</g>
+</g>
+<g id="processing-terminal">
+<rect id="terminal_7" x="313" y="176" width="470.72" height="397" fill="#151515"/>
+<rect id="termional-input_7" x="326.294" y="213.464" width="444.132" height="351.076" fill="black"/>
+<g id="bio-hamburger_7">
+<line id="Line 1_7" x1="326.898" y1="189.002" x2="348.047" y2="189.002" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 2_7" x1="326.898" y1="195.649" x2="348.047" y2="195.649" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 3_7" x1="326.898" y1="202.9" x2="348.047" y2="202.9" stroke="#A6A3A3" stroke-width="3"/>
+</g>
+<g id="browser-menu-items_7">
+<rect id="Rectangle 3_7" x="727.815" y="190.144" width="14.5236" height="14.5236" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 4_7" d="M768.03 190.061L753.03 205.121" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 5_7" d="M753.591 190L768.03 205.061" stroke="#C4C4C4" stroke-width="3"/>
+<line id="Line 6_7" x1="701.54" y1="196.208" x2="717.251" y2="196.208" stroke="#C4C4C4" stroke-width="3"/>
+</g>
+<text id="bio-title_7" fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="409" y="201.336">MINGW64:/e/Tech/Processing</tspan><tspan x="409" y="224.336"></tspan></text>
+<g id="dir1_7">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="625.913" y="233.127">/e/Tech/Processing</tspan><tspan x="330" y="251.127"></tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="553.887" y="233.127">MINGW64</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="550.166" y="233.127"> </tspan><tspan x="622.192" y="233.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="330" y="233.127">theforthlion@DESKTOP-3MT17I6</tspan></text>
+</g>
+<g id="desc_7">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="339.438" y="252.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="375.78" y="252.127"> $processing</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="343.158" y="252.127">echo</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="331" y="252.127">$</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="331" y="270.127">Processing is an open-source programming language and </tspan><tspan x="331" y="288.127">development environment based on Java that is designed for </tspan><tspan x="331" y="306.127">visual artists, designers, and creative coders. Processing </tspan><tspan x="331" y="324.127">provides a simplified and user-friendly interface for creating </tspan><tspan x="331" y="342.127">graphics and interactive applications, making it an accessible </tspan><tspan x="331" y="360.127">tool for those who may not have a background in programming.</tspan><tspan x="331" y="378.127">Processing was created with the goal of making it easy to </tspan><tspan x="331" y="396.127">create visual and interactive applications by abstracting away </tspan><tspan x="331" y="414.127">many of the complex details of programming. It provides a set </tspan><tspan x="331" y="432.127">of built-in functions and libraries for creating 2D and 3D </tspan><tspan x="331" y="450.127">graphics, animations, and interactive applications, as well as </tspan><tspan x="331" y="468.127">support for various input devices such as keyboards, mice, and </tspan><tspan x="331" y="486.127">cameras.</tspan></text>
+</g>
+</g>
+<g id="sass-terminal">
+<rect id="terminal_8" x="349" y="282" width="470.72" height="397" fill="#151515"/>
+<rect id="termional-input_8" x="362.294" y="319.464" width="444.132" height="351.076" fill="black"/>
+<g id="bio-hamburger_8">
+<line id="Line 1_8" x1="362.898" y1="295.002" x2="384.047" y2="295.002" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 2_8" x1="362.898" y1="301.649" x2="384.047" y2="301.649" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 3_8" x1="362.898" y1="308.9" x2="384.047" y2="308.9" stroke="#A6A3A3" stroke-width="3"/>
+</g>
+<g id="browser-menu-items_8">
+<rect id="Rectangle 3_8" x="763.815" y="296.144" width="14.5236" height="14.5236" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 4_8" d="M804.03 296.061L789.03 311.121" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 5_8" d="M789.591 296L804.03 311.061" stroke="#C4C4C4" stroke-width="3"/>
+<line id="Line 6_8" x1="737.54" y1="302.208" x2="753.251" y2="302.208" stroke="#C4C4C4" stroke-width="3"/>
+</g>
+<text id="bio-title_8" fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="445" y="307.336">MINGW64:/e/Tech/Sass</tspan></text>
+<g id="dir1_8">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="661.913" y="339.127">/e/Tech/Sass</tspan><tspan x="366" y="357.127"></tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="589.887" y="339.127">MINGW64</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="586.166" y="339.127"> </tspan><tspan x="658.192" y="339.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="366" y="339.127">theforthlion@DESKTOP-3MT17I6</tspan></text>
+</g>
+<g id="desc_8">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="375.438" y="358.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="411.78" y="358.127"> $sass</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="379.158" y="358.127">echo</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="367" y="358.127">$</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="367" y="376.127">Sass (short for Syntactically Awesome Style Sheets) is a </tspan><tspan x="367" y="394.127">preprocessor scripting language that is interpreted or compiled </tspan><tspan x="367" y="412.127">into Cascading Style Sheets (CSS). It adds a layer of </tspan><tspan x="367" y="430.127">functionality and abstraction to CSS, making it easier and more </tspan><tspan x="367" y="448.127">efficient to write and manage complex stylesheets. Sass </tspan><tspan x="367" y="466.127">provides features such as variables, nested rules, functions, </tspan><tspan x="367" y="484.127">and mixins, which allow for more organized and modular code.</tspan><tspan x="367" y="502.127">One of the key benefits of Sass is its ability to simplify the </tspan><tspan x="367" y="520.127">process of creating responsive web designs. With features like </tspan><tspan x="367" y="538.127">media queries and variables, developers can create more </tspan><tspan x="367" y="556.127">flexible and adaptable layouts with less code. Sass also </tspan><tspan x="367" y="574.127">provides a way to reuse code across multiple stylesheets using </tspan><tspan x="367" y="592.127">mixins, which can reduce redundancy and increase </tspan><tspan x="367" y="610.127">maintainability.</tspan></text>
+</g>
+</g>
+<g id="mongodb-terminal">
+<rect id="terminal_9" x="89" y="282" width="470.72" height="397" fill="#151515"/>
+<rect id="termional-input_9" x="102.294" y="319.464" width="444.132" height="351.076" fill="black"/>
+<g id="bio-hamburger_9">
+<line id="Line 1_9" x1="102.898" y1="295.002" x2="124.047" y2="295.002" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 2_9" x1="102.898" y1="301.649" x2="124.047" y2="301.649" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 3_9" x1="102.898" y1="308.9" x2="124.047" y2="308.9" stroke="#A6A3A3" stroke-width="3"/>
+</g>
+<g id="browser-menu-items_9">
+<rect id="Rectangle 3_9" x="503.815" y="296.144" width="14.5236" height="14.5236" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 4_9" d="M544.03 296.061L529.03 311.121" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 5_9" d="M529.591 296L544.03 311.061" stroke="#C4C4C4" stroke-width="3"/>
+<line id="Line 6_9" x1="477.54" y1="302.208" x2="493.251" y2="302.208" stroke="#C4C4C4" stroke-width="3"/>
+</g>
+<text id="bio-title_9" fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="185" y="307.336">MINGW64:/e/Tech/MongoDB</tspan></text>
+<g id="dir1_9">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="401.913" y="339.127">/e/Tech/MongoDB</tspan><tspan x="106" y="357.127"></tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="329.887" y="339.127">MINGW64</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="326.166" y="339.127"> </tspan><tspan x="398.192" y="339.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="106" y="339.127">theforthlion@DESKTOP-3MT17I6</tspan></text>
+</g>
+<g id="desc_9">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="115.438" y="358.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="151.78" y="358.127"> $mongodb</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="119.158" y="358.127">echo</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="107" y="358.127">$</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="107" y="376.127">MongoDB is a popular open-source document-oriented NoSQL </tspan><tspan x="107" y="394.127">database that stores data in flexible, JSON-like documents. It </tspan><tspan x="107" y="412.127">was developed in 2007 by MongoDB Inc. and is currently </tspan><tspan x="107" y="430.127">maintained by a community of developers. MongoDB uses a </tspan><tspan x="107" y="448.127">document model to store data, which means that data is </tspan><tspan x="107" y="466.127">organized into collections of documents rather than tables with </tspan><tspan x="107" y="484.127">rows and columns, as in a relational database. Each document </tspan><tspan x="107" y="502.127">is a BSON object that can be queried and indexed for fast </tspan><tspan x="107" y="520.127">retrieval. One of the primary benefits of MongoDB is its ability </tspan><tspan x="107" y="538.127">to handle large volumes of unstructured or semi-structured </tspan><tspan x="107" y="556.127">data. It provides high availability and automatic scaling, making </tspan><tspan x="107" y="574.127">it suitable for large-scale and high-traffic applications. It also </tspan><tspan x="107" y="592.127">offers a rich set of features, including ad hoc queries, indexing, </tspan><tspan x="107" y="610.127">and aggregation, as well as built-in support for geospatial data </tspan><tspan x="107" y="628.127">and full-text search.</tspan></text>
+</g>
+</g>
+<g id="bash-terminal">
+<rect id="terminal_10" x="94" y="15" width="470.72" height="397" fill="#151515"/>
+<rect id="termional-input_10" x="107.294" y="52.4642" width="444.132" height="351.076" fill="black"/>
+<g id="bio-hamburger_10">
+<line id="Line 1_10" x1="107.898" y1="28.0023" x2="129.047" y2="28.0023" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 2_10" x1="107.898" y1="34.6492" x2="129.047" y2="34.6492" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 3_10" x1="107.898" y1="41.9003" x2="129.047" y2="41.9003" stroke="#A6A3A3" stroke-width="3"/>
+</g>
+<g id="browser-menu-items_10">
+<rect id="Rectangle 3_10" x="508.815" y="29.1442" width="14.5236" height="14.5236" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 4_10" d="M549.03 29.0607L534.03 44.1213" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 5_10" d="M534.591 29L549.03 44.0607" stroke="#C4C4C4" stroke-width="3"/>
+<line id="Line 6_10" x1="482.54" y1="35.2081" x2="498.251" y2="35.2081" stroke="#C4C4C4" stroke-width="3"/>
+</g>
+<text id="bio-title_10" fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="190" y="40.3359">MINGW64:/e/Tech/Bash</tspan></text>
+<g id="dir1_10">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="406.913" y="72.127">/e/Tech/Bash</tspan><tspan x="111" y="90.127"></tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="334.887" y="72.127">MINGW64</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="331.166" y="72.127"> </tspan><tspan x="403.192" y="72.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="111" y="72.127">theforthlion@DESKTOP-3MT17I6</tspan></text>
+</g>
+<g id="desc_10">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="120.438" y="91.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="156.78" y="91.127"> $bash</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="124.158" y="91.127">echo</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="112" y="91.127">$</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="112" y="109.127">Bash is a Unix shell and command language, which is the </tspan><tspan x="112" y="127.127">default shell for most Linux and macOS operating systems. It </tspan><tspan x="112" y="145.127">stands for (Bourne-Again SHell) named after its predecessor, </tspan><tspan x="112" y="163.127">the Bourne shell (sh). Bash is a command-line interface (CLI) </tspan><tspan x="112" y="181.127">that allows users to interact with the operating system by </tspan><tspan x="112" y="199.127">entering commands and receiving output. Bash allows users to </tspan><tspan x="112" y="217.127">navigate and manipulate files and directories, run programs, </tspan><tspan x="112" y="235.127">automate tasks using shell scripts, and perform other common </tspan><tspan x="112" y="253.127">computing tasks. It provides a number of built-in commands </tspan><tspan x="112" y="271.127">and utilities, as well as the ability to create and use custom </tspan><tspan x="112" y="289.127">commands and scripts. Bash also supports features such as </tspan><tspan x="112" y="307.127">command history, tab completion, and environment variables, </tspan><tspan x="112" y="325.127">which allow users to customize their shell experience.</tspan></text>
+</g>
+</g>
+<g id="linux-terminal">
+<rect id="terminal_11" x="349" y="74" width="470.72" height="397" fill="#151515"/>
+<rect id="termional-input_11" x="362.294" y="111.464" width="444.132" height="351.076" fill="black"/>
+<g id="bio-hamburger_11">
+<line id="Line 1_11" x1="362.898" y1="87.0023" x2="384.047" y2="87.0023" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 2_11" x1="362.898" y1="93.6492" x2="384.047" y2="93.6492" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 3_11" x1="362.898" y1="100.9" x2="384.047" y2="100.9" stroke="#A6A3A3" stroke-width="3"/>
+</g>
+<g id="browser-menu-items_11">
+<rect id="Rectangle 3_11" x="763.815" y="88.1442" width="14.5236" height="14.5236" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 4_11" d="M804.03 88.0607L789.03 103.121" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 5_11" d="M789.591 88L804.03 103.061" stroke="#C4C4C4" stroke-width="3"/>
+<line id="Line 6_11" x1="737.54" y1="94.2081" x2="753.251" y2="94.2081" stroke="#C4C4C4" stroke-width="3"/>
+</g>
+<text id="bio-title_11" fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="445" y="99.3359">MINGW64:/e/Tech/Linux</tspan></text>
+<g id="dir1_11">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="661.913" y="131.127">/e/Tech/Linux</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="589.887" y="131.127">MINGW64</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="586.166" y="131.127"> </tspan><tspan x="658.192" y="131.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="366" y="131.127">theforthlion@DESKTOP-3MT17I6</tspan></text>
+</g>
+<g id="desc_11">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="375.438" y="150.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="411.78" y="150.127"> $linux</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="379.158" y="150.127">echo</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="367" y="150.127">$</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="367" y="168.127">Linux is a free and open-source operating system based on the </tspan><tspan x="367" y="186.127">Unix-like operating systems, which was first released in 1991. It </tspan><tspan x="367" y="204.127">was created by Linus Torvalds and has since grown to become </tspan><tspan x="367" y="222.127">one of the most popular operating systems in the world, </tspan><tspan x="367" y="240.127">powering servers, supercomputers, and mobile devices. Linux </tspan><tspan x="367" y="258.127">is known for its stability, security, and flexibility, and is widely </tspan><tspan x="367" y="276.127">used by developers, system administrators, and other tech-</tspan><tspan x="367" y="294.127">savvy users. One of the key advantages of Linux is its open-</tspan><tspan x="367" y="312.127">source nature, which allows developers and users to access the </tspan><tspan x="367" y="330.127">source code, modify it, and distribute their own versions of the </tspan><tspan x="367" y="348.127">operating system. This has led to a vast ecosystem of free and </tspan><tspan x="367" y="366.127">open-source software built around Linux, with many powerful </tspan><tspan x="367" y="384.127">tools and applications available for a wide range of purposes.</tspan></text>
+</g>
+</g>
+<g id="plutus-terminal">
+<rect id="terminal_12" x="159" y="24" width="470.72" height="397" fill="#151515"/>
+<rect id="termional-input_12" x="172.294" y="61.4642" width="444.132" height="351.076" fill="black"/>
+<g id="bio-hamburger_12">
+<line id="Line 1_12" x1="172.898" y1="37.0023" x2="194.047" y2="37.0023" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 2_12" x1="172.898" y1="43.6492" x2="194.047" y2="43.6492" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 3_12" x1="172.898" y1="50.9003" x2="194.047" y2="50.9003" stroke="#A6A3A3" stroke-width="3"/>
+</g>
+<g id="browser-menu-items_12">
+<rect id="Rectangle 3_12" x="573.815" y="38.1442" width="14.5236" height="14.5236" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 4_12" d="M614.03 38.0607L599.03 53.1213" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 5_12" d="M599.591 38L614.03 53.0607" stroke="#C4C4C4" stroke-width="3"/>
+<line id="Line 6_12" x1="547.54" y1="44.2081" x2="563.251" y2="44.2081" stroke="#C4C4C4" stroke-width="3"/>
+</g>
+<text id="bio-title_12" fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="255" y="49.3359">MINGW64:/e/Tech/Plutus</tspan></text>
+<g id="dir1_12">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="471.913" y="81.127">/e/Tech/Plutus</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="399.887" y="81.127">MINGW64</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="396.166" y="81.127"> </tspan><tspan x="468.192" y="81.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="176" y="81.127">theforthlion@DESKTOP-3MT17I6</tspan></text>
+</g>
+<g id="desc_12">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="185.438" y="100.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="221.78" y="100.127"> $plutus</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="189.158" y="100.127">echo</tspan><tspan x="177" y="118.127">Plutus is a programming platform specifically designed for </tspan><tspan x="177" y="136.127">writing smart contracts on the Cardano blockchain. It is an </tspan><tspan x="177" y="154.127">open-source platform that leverages Haskell, a purely </tspan><tspan x="177" y="172.127">functional programming language, for developing smart </tspan><tspan x="177" y="190.127">contracts. Developers can use Plutus to create custom smart </tspan><tspan x="177" y="208.127">contracts that run on the Cardano blockchain. Plutus provides </tspan><tspan x="177" y="226.127">developers with a suite of tools and libraries for creating smart </tspan><tspan x="177" y="244.127">contracts, including a simulator for testing and debugging, an </tspan><tspan x="177" y="262.127">online editor for developing and deploying contracts, and a </tspan><tspan x="177" y="280.127">command-line interface for interacting with the blockchain. </tspan><tspan x="177" y="298.127">Additionally, Plutus uses the Cardano Settlement Layer (CSL) to </tspan><tspan x="177" y="316.127">provide a secure and scalable blockchain platform for smart </tspan><tspan x="177" y="334.127">contract deployment.</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="177" y="100.127">$</tspan></text>
+</g>
+</g>
+<g id="bootstrap-terminal">
+<rect id="terminal_13" x="105" y="139" width="470.72" height="397" fill="#151515"/>
+<rect id="termional-input_13" x="118.294" y="176.464" width="444.132" height="351.076" fill="black"/>
+<g id="bio-hamburger_13">
+<line id="Line 1_13" x1="118.898" y1="152.002" x2="140.047" y2="152.002" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 2_13" x1="118.898" y1="158.649" x2="140.047" y2="158.649" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 3_13" x1="118.898" y1="165.9" x2="140.047" y2="165.9" stroke="#A6A3A3" stroke-width="3"/>
+</g>
+<g id="browser-menu-items_13">
+<rect id="Rectangle 3_13" x="519.815" y="153.144" width="14.5236" height="14.5236" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 4_13" d="M560.03 153.061L545.03 168.121" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 5_13" d="M545.591 153L560.03 168.061" stroke="#C4C4C4" stroke-width="3"/>
+<line id="Line 6_13" x1="493.54" y1="159.208" x2="509.251" y2="159.208" stroke="#C4C4C4" stroke-width="3"/>
+</g>
+<text id="bio-title_13" fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="201" y="164.336">MINGW64:/e/Tech/Bootstrap</tspan></text>
+<g id="dir1_13">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="417.913" y="196.127">/e/Tech/Bootstrap</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="345.887" y="196.127">MINGW64</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="342.166" y="196.127"> </tspan><tspan x="414.192" y="196.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="122" y="196.127">theforthlion@DESKTOP-3MT17I6</tspan></text>
+</g>
+<g id="desc_13">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="131.438" y="215.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="167.78" y="215.127"> $bootstrap</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="135.158" y="215.127">echo</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="123" y="215.127">$</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="123" y="233.127">Bootstrap is a free and open-source CSS framework that is </tspan><tspan x="123" y="251.127">widely used by developers to create responsive and mobile-first </tspan><tspan x="123" y="269.127">web pages. It was developed by Twitter and has since become </tspan><tspan x="123" y="287.127">one of the most popular CSS frameworks available. With its </tspan><tspan x="123" y="305.127">extensive library of pre-built components, it makes web design </tspan><tspan x="123" y="323.127">a breeze. Bootstrap has an active community, with plenty of </tspan><tspan x="123" y="341.127">resources available, including documentation, templates, and </tspan><tspan x="123" y="359.127">code snippets you can leverage to design a clean application </tspan><tspan x="123" y="377.127">relatively quickly. With all these features, Bootstrap is definitely </tspan><tspan x="123" y="395.127">a tool that any developer should have in their toolkit.</tspan></text>
+</g>
+</g>
+<g id="solidity-terminal">
+<rect id="terminal_14" x="50" y="256" width="470.72" height="397" fill="#151515"/>
+<rect id="termional-input_14" x="63.2938" y="293.464" width="444.132" height="351.076" fill="black"/>
+<g id="bio-hamburger_14">
+<line id="Line 1_14" x1="63.898" y1="269.002" x2="85.0472" y2="269.002" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 2_14" x1="63.898" y1="275.649" x2="85.0472" y2="275.649" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 3_14" x1="63.898" y1="282.9" x2="85.0472" y2="282.9" stroke="#A6A3A3" stroke-width="3"/>
+</g>
+<g id="browser-menu-items_14">
+<rect id="Rectangle 3_14" x="464.815" y="270.144" width="14.5236" height="14.5236" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 4_14" d="M505.03 270.061L490.03 285.121" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 5_14" d="M490.591 270L505.03 285.061" stroke="#C4C4C4" stroke-width="3"/>
+<line id="Line 6_14" x1="438.54" y1="276.208" x2="454.251" y2="276.208" stroke="#C4C4C4" stroke-width="3"/>
+</g>
+<text id="bio-title_14" fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="169" y="281.336">MINGW64:/e/Tech/Solidity</tspan></text>
+<g id="dir1_14">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="362.913" y="313.127">/e/Tech/Solidity</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="290.887" y="313.127">MINGW64</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="287.166" y="313.127"> </tspan><tspan x="359.192" y="313.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="67" y="313.127">theforthlion@DESKTOP-3MT17I6</tspan></text>
+</g>
+<g id="desc_14">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="76.4375" y="332.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="112.78" y="332.127"> $solidity</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="80.1582" y="332.127">echo</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="68" y="332.127">$</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="68" y="350.127">Solidity is a high-level programming language used to write </tspan><tspan x="68" y="368.127">smart contracts on the Ethereum blockchain. It was developed </tspan><tspan x="68" y="386.127">by the Ethereum Foundation and is used to build decentralized </tspan><tspan x="68" y="404.127">applications (DApps) on the blockchain. Solidity has a similar </tspan><tspan x="68" y="422.127">syntax to JavaScript and is designed to be both easy to learn </tspan><tspan x="68" y="440.127">and secure. Smart contracts are self-executing contracts with </tspan><tspan x="68" y="458.127">the terms of the agreement directly written into code. They </tspan><tspan x="68" y="476.127">allow for decentralized transactions, eliminating the need for a </tspan><tspan x="68" y="494.127">middleman or third party. Solidity is the most popular language </tspan><tspan x="68" y="512.127">for developing smart contracts and is widely used in the </tspan><tspan x="68" y="530.127">Ethereum ecosystem. It is compiled into bytecode that can be </tspan><tspan x="68" y="548.127">executed on the Ethereum Virtual Machine (EVM). A number of </tspan><tspan x="68" y="566.127">other blockchains have decided to add EVM support to enable </tspan><tspan x="68" y="584.127">developers to work create applications for their platform.</tspan></text>
+</g>
+</g>
+<g id="css-terminal">
+<rect id="terminal_15" x="131" y="273" width="470.72" height="397" fill="#151515"/>
+<rect id="termional-input_15" x="144.294" y="310.464" width="444.132" height="351.076" fill="black"/>
+<g id="bio-hamburger_15">
+<line id="Line 1_15" x1="144.898" y1="286.002" x2="166.047" y2="286.002" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 2_15" x1="144.898" y1="292.649" x2="166.047" y2="292.649" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 3_15" x1="144.898" y1="299.9" x2="166.047" y2="299.9" stroke="#A6A3A3" stroke-width="3"/>
+</g>
+<g id="browser-menu-items_15">
+<rect id="Rectangle 3_15" x="545.815" y="287.144" width="14.5236" height="14.5236" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 4_15" d="M586.03 287.061L571.03 302.121" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 5_15" d="M571.591 287L586.03 302.061" stroke="#C4C4C4" stroke-width="3"/>
+<line id="Line 6_15" x1="519.54" y1="293.208" x2="535.251" y2="293.208" stroke="#C4C4C4" stroke-width="3"/>
+</g>
+<text id="bio-title_15" fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="227" y="298.336">MINGW64:/e/Tech/CSS</tspan></text>
+<g id="dir1_15">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="443.913" y="330.127">/e/Tech/CSS</tspan><tspan x="148" y="348.127"></tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="371.887" y="330.127">MINGW64</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="368.166" y="330.127"> </tspan><tspan x="440.192" y="330.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="148" y="330.127">theforthlion@DESKTOP-3MT17I6</tspan></text>
+</g>
+<g id="desc_15">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="157.438" y="349.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="193.78" y="349.127"> $css</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="161.158" y="349.127">echo</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="149" y="349.127">$</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="149" y="367.127">As a web developer, I use CSS (Cascading Style Sheets) every </tspan><tspan x="149" y="385.127">day to style and design web pages. CSS is a style sheet </tspan><tspan x="149" y="403.127">language used to describe the presentation of an HTML </tspan><tspan x="149" y="421.127">document. CSS is essential for creating visually appealing and </tspan><tspan x="149" y="439.127">engaging websites. One of the most powerful features of CSS </tspan><tspan x="149" y="457.127">is its ability to cascade, or inherit, styles across multiple </tspan><tspan x="149" y="475.127">elements on a web page. Meaning that you can define a style </tspan><tspan x="149" y="493.127">for a parent element and have it automatically applied to all of </tspan><tspan x="149" y="511.127">its child elements, saving time and improving consistency </tspan><tspan x="149" y="529.127">across your design. It is also leveraged to create responsive </tspan><tspan x="149" y="547.127">designs that adapt to different screen sizes and resolutions, to </tspan><tspan x="149" y="565.127">ensure that my pages look great on different browsers and </tspan><tspan x="149" y="583.127">devices. CSS provides a range of options for creating web </tspan><tspan x="149" y="601.127">applications, from a simple responsive design to creating </tspan><tspan x="149" y="619.127">complex and unique features that bring your design to a new </tspan><tspan x="149" y="637.127">level.</tspan></text>
+</g>
+</g>
+<g id="react-terminal">
+<rect id="terminal_16" x="201" y="201" width="470.72" height="397" fill="#151515"/>
+<rect id="termional-input_16" x="214.294" y="238.464" width="444.132" height="351.076" fill="black"/>
+<g id="bio-hamburger_16">
+<line id="Line 1_16" x1="214.898" y1="214.002" x2="236.047" y2="214.002" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 2_16" x1="214.898" y1="220.649" x2="236.047" y2="220.649" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 3_16" x1="214.898" y1="227.9" x2="236.047" y2="227.9" stroke="#A6A3A3" stroke-width="3"/>
+</g>
+<g id="browser-menu-items_16">
+<rect id="Rectangle 3_16" x="615.815" y="215.144" width="14.5236" height="14.5236" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 4_16" d="M656.03 215.061L641.03 230.121" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 5_16" d="M641.591 215L656.03 230.061" stroke="#C4C4C4" stroke-width="3"/>
+<line id="Line 6_16" x1="589.54" y1="221.208" x2="605.251" y2="221.208" stroke="#C4C4C4" stroke-width="3"/>
+</g>
+<text id="bio-title_16" fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="320" y="226.336">MINGW64:/e/Tech/React</tspan></text>
+<g id="dir1_16">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="513.913" y="258.127">/e/Tech/React</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="441.887" y="258.127">MINGW64</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="438.166" y="258.127"> </tspan><tspan x="510.192" y="258.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="218" y="258.127">theforthlion@DESKTOP-3MT17I6</tspan></text>
+</g>
+<g id="desc_16">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="227.438" y="277.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="263.78" y="277.127"> $react</tspan><tspan x="219" y="565.127"></tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="231.158" y="277.127">echo</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="219" y="277.127">$</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="219" y="295.127">As a web developer, I often use React, a popular open-source </tspan><tspan x="219" y="313.127">JavaScript library developed by Facebook for building web </tspan><tspan x="219" y="331.127">application user interfaces (UI). React enables developers to </tspan><tspan x="219" y="349.127">create high-performance and reusable UI components using a </tspan><tspan x="219" y="367.127">component-based architecture. These components are a </tspan><tspan x="219" y="385.127">powerful tool for web development as they allow you to </tspan><tspan x="219" y="403.127">combine HTML and JS in one component. Along with the ability </tspan><tspan x="219" y="421.127">to fetch data, they offer a great way to create robust and </tspan><tspan x="219" y="439.127">complex UI for any use case. I find React to be extremely useful </tspan><tspan x="219" y="457.127">as it speeds up development and creates an environment </tspan><tspan x="219" y="475.127">where you never code for just one project. With React Native, </tspan><tspan x="219" y="493.127">you can also easily deploy your web application as a mobile </tspan><tspan x="219" y="511.127">application on iOS or Android. React, along with other </tspan><tspan x="219" y="529.127">frameworks, have truly reshaped the way we write web </tspan><tspan x="219" y="547.127">applications.</tspan></text>
+</g>
+</g>
+<g id="js-terminal">
+<rect id="terminal_17" x="321" y="88" width="470.72" height="397" fill="#151515"/>
+<rect id="termional-input_17" x="334.294" y="125.464" width="444.132" height="351.076" fill="black"/>
+<g id="bio-hamburger_17">
+<line id="Line 1_17" x1="334.898" y1="101.002" x2="356.047" y2="101.002" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 2_17" x1="334.898" y1="107.649" x2="356.047" y2="107.649" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 3_17" x1="334.898" y1="114.9" x2="356.047" y2="114.9" stroke="#A6A3A3" stroke-width="3"/>
+</g>
+<g id="browser-menu-items_17">
+<rect id="Rectangle 3_17" x="735.815" y="102.144" width="14.5236" height="14.5236" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 4_17" d="M776.03 102.061L761.03 117.121" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 5_17" d="M761.591 102L776.03 117.061" stroke="#C4C4C4" stroke-width="3"/>
+<line id="Line 6_17" x1="709.54" y1="108.208" x2="725.251" y2="108.208" stroke="#C4C4C4" stroke-width="3"/>
+</g>
+<text id="bio-title_17" fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="440" y="113.336">MINGW64:/e/Tech/Js</tspan></text>
+<g id="dir1_17">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="663.723" y="145.127">/e/Tech/Js</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="591.696" y="145.127">MINGW64</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="587.976" y="145.127"> </tspan><tspan x="660.002" y="145.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="338" y="145.127">everettthefourth@DESKTOP-3MT17I6</tspan></text>
+</g>
+<g id="desc_17">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="347.438" y="164.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="383.78" y="164.127"> $javascript</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="351.158" y="164.127">echo</tspan><tspan x="339" y="182.127">At its core JavaScript is a dynamic and versatile programming </tspan><tspan x="339" y="200.127">language that has become the go-to language for both front-</tspan><tspan x="339" y="218.127">end and back-end web development. It is popular for its ease of </tspan><tspan x="339" y="236.127">use, platform compatibility, and the ability to create dynamic </tspan><tspan x="339" y="254.127">and interactive web pages and applications. JavaScript has a </tspan><tspan x="339" y="272.127">vast ecosystem with a growing number of front-end </tspan><tspan x="339" y="290.127">frameworks and an ever-expanding amount of Node packages. </tspan><tspan x="339" y="308.127">As a result, JavaScript has become my most used </tspan><tspan x="339" y="326.127">programming language. Ive leveraged it when building a variety </tspan><tspan x="339" y="344.127">of projects including writing web apps, web based games, </tspan><tspan x="339" y="362.127">scripts to automate tasks, web scraping, and much more. The </tspan><tspan x="339" y="380.127">famous quote by Jeff Atwood, Any application that can be </tspan><tspan x="339" y="398.127">written in JavaScript, will eventually be written in JavaScript, is </tspan><tspan x="339" y="416.127">a testament to the ubiquity of the language.</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="339" y="164.127">$</tspan></text>
+</g>
+</g>
+<g id="java-terminal">
+<rect id="terminal_18" x="246" y="18" width="470.72" height="397" fill="#151515"/>
+<rect id="termional-input_18" x="259.294" y="55.4642" width="444.132" height="351.076" fill="black"/>
+<g id="bio-hamburger_18">
+<line id="Line 1_18" x1="259.898" y1="31.0023" x2="281.047" y2="31.0023" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 2_18" x1="259.898" y1="37.6492" x2="281.047" y2="37.6492" stroke="#A6A3A3" stroke-width="3"/>
+<line id="Line 3_18" x1="259.898" y1="44.9003" x2="281.047" y2="44.9003" stroke="#A6A3A3" stroke-width="3"/>
+</g>
+<g id="browser-menu-items_18">
+<rect id="Rectangle 3_18" x="660.815" y="32.1442" width="14.5236" height="14.5236" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 4_18" d="M701.03 32.0607L686.03 47.1213" stroke="#C4C4C4" stroke-width="3"/>
+<path id="Line 5_18" d="M686.591 32L701.03 47.0607" stroke="#C4C4C4" stroke-width="3"/>
+<line id="Line 6_18" x1="634.54" y1="38.2081" x2="650.251" y2="38.2081" stroke="#C4C4C4" stroke-width="3"/>
+</g>
+<text id="bio-title_18" fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="365" y="43.3359">MINGW64:/e/Tech/Java</tspan></text>
+<g id="dir1_18">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="588.723" y="75.127">/e/Tech/Java</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="516.696" y="75.127">MINGW64</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="512.976" y="75.127"> </tspan><tspan x="585.002" y="75.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="263" y="75.127">everettthefourth@DESKTOP-3MT17I6</tspan></text>
+</g>
+<g id="desc_18">
+<text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="272.438" y="94.127"> </tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="308.78" y="94.127"> $java</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="276.158" y="94.127">echo</tspan></text>
+<text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="264" y="94.127">$</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="15" letter-spacing="0em"><tspan x="264" y="112.127">The Java programming language is an excellent language to </tspan><tspan x="264" y="130.127">work with. It is high-level and object-oriented, meaning that it is </tspan><tspan x="264" y="148.127">designed to be easy to use and understand. The language is </tspan><tspan x="264" y="166.127">designed to minimize implementation dependencies, which </tspan><tspan x="264" y="184.127">makes it versatile and enables developers to write code once </tspan><tspan x="264" y="202.127">and run it anywhere. This feature alone can save a lot of time </tspan><tspan x="264" y="220.127">and effort, especially when developing large and complex </tspan><tspan x="264" y="238.127">applications. Personally, Java holds a special place in my heart </tspan><tspan x="264" y="256.127">as it was the first programming language I learned. I was </tspan><tspan x="264" y="274.127">introduced to the fundamentals of programming through Java </tspan><tspan x="264" y="292.127">in a software technology class in high school. The language </tspan><tspan x="264" y="310.127">was intuitive and easy to pick up, which made it an ideal choice </tspan><tspan x="264" y="328.127">for beginning. I also enjoyed working with Processing, a </tspan><tspan x="264" y="346.127">graphical library built on top of Java. This library made it easy </tspan><tspan x="264" y="364.127">to create visually rich and interactive applications.</tspan></text>
+</g>
+</g>
+</g>
+<defs>
+<filter id="filter0_d_2_2" x="-4" y="0" width="881" height="701" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_2_2"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_2_2" result="shape"/>
+</filter>
+</defs>
+</svg>

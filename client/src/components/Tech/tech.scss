@@ -1,125 +1,147 @@
 @import "../../styles/Variables/Variables.scss";
 
-// mobile
-@media (max-width: 480px) {
-  .Tech {
-    height: 50vh !important;
+@font-face {
+  font-family: Cyber;
+  src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+  font-display: swap;
+}
+
+.Tech {
+  text {
+    font-family: "Cyber", sans-serif;
   }
-}
 
-.svg {
-  margin-top: 80px;
-}
-.svg-tech-names {
-  fill: $github-gray;
-}
+  svg {
+    margin-top: 80px;
+  }
 
-.svg-tech-names:hover {
-  cursor: pointer;
-  fill: $hacker-green;
-}
+  @media (max-width: 900px) {
+    svg {
+      margin-top: 80px;
+      width: 85vw;
+      height: auto;
+    }
+  }
 
-.python-terminal {
-  display: none;
-}
+  .svg-tech-names {
+    fill: $github-gray;
+  }
 
-.jquery-terminal {
-  display: none;
-}
-.processing-terminal {
-  display: none;
-}
-.haskell-terminal {
-  display: none;
-}
-.bash-terminal {
-  display: none;
-}
-.sass-terminal {
-  display: none;
-}
-.java-terminal {
-  display: none;
-}
-.mongodb-terminal {
-  display: none;
-}
-.plutus-terminal {
-  display: none;
-}
-.linux-terminal {
-  display: none;
-}
-.js-terminal {
-  display: none;
-}
-.react-terminal {
-  display: none;
-}
-.solidity-terminal {
-  display: none;
-}
-.bootstrap-terminal {
-  display: none;
-}
-.html-terminal {
-  display: none;
-}
-.css-terminal {
-  display: none;
-}
-.node-terminal {
-  display: none;
-}
+  .svg-tech-names:hover {
+    cursor: pointer;
+    fill: $hacker-green;
+  }
 
-.Node:hover ~ .node-terminal {
-  display: block !important;
-}
-.HTML:hover ~ .html-terminal {
-  display: block !important;
-}
-.Processing:hover ~ .processing-terminal {
-  display: block !important;
-}
-.jQuery:hover ~ .jquery-terminal {
-  display: block !important;
-}
-.Python:hover ~ .python-terminal {
-  display: block !important;
-}
-.CSS:hover ~ .css-terminal {
-  display: block !important;
-}
-.Sass:hover ~ .sass-terminal {
-  display: block !important;
-}
-.Java:hover ~ .java-terminal {
-  display: block !important;
-}
-.Bash:hover ~ .bash-terminal {
-  display: block !important;
-}
-.MongoDB:hover ~ .mongodb-terminal {
-  display: block !important;
-}
-.Linux:hover ~ .linux-terminal {
-  display: block !important;
-}
-.JavaScript:hover ~ .js-terminal {
-  display: block !important;
-}
-.React:hover ~ .react-terminal {
-  display: block !important;
-}
-.Solidity:hover ~ .solidity-terminal {
-  display: block !important;
-}
-.Bootstrap:hover ~ .bootstrap-terminal {
-  display: block !important;
-}
-.Plutus:hover ~ .plutus-terminal {
-  display: block !important;
-}
-.Haskell:hover ~ .haskell-terminal {
-  display: block !important;
+  #python-terminal {
+    display: none;
+  }
+
+  #jquery-terminal {
+    display: none;
+  }
+  #processing-terminal {
+    display: none;
+  }
+  #haskell-terminal {
+    display: none;
+  }
+  #bash-terminal {
+    display: none;
+  }
+  #sass-terminal {
+    display: none;
+  }
+  #java-terminal {
+    display: none;
+  }
+  #mongodb-terminal {
+    display: none;
+  }
+
+  #postgresql-terminal {
+    display: none;
+  }
+  #plutus-terminal {
+    display: none;
+  }
+  #linux-terminal {
+    display: none;
+  }
+  #js-terminal {
+    display: none;
+  }
+  #react-terminal {
+    display: none;
+  }
+  #solidity-terminal {
+    display: none;
+  }
+  #bootstrap-terminal {
+    display: none;
+  }
+  #html-terminal {
+    display: none;
+  }
+  #css-terminal {
+    display: none;
+  }
+  #node-terminal {
+    display: none;
+  }
+
+  #PostgreSQL:hover ~ #postgresql-terminal {
+    display: block !important;
+  }
+
+  #Node:hover ~ #node-terminal {
+    display: block !important;
+  }
+  #HTML:hover ~ #html-terminal {
+    display: block !important;
+  }
+  #Processing:hover ~ #processing-terminal {
+    display: block !important;
+  }
+  #jQuery:hover ~ #jquery-terminal {
+    display: block !important;
+  }
+  #Python:hover ~ #python-terminal {
+    display: block !important;
+  }
+  #CSS:hover ~ #css-terminal {
+    display: block !important;
+  }
+  #Sass:hover ~ #sass-terminal {
+    display: block !important;
+  }
+  #Java:hover ~ #java-terminal {
+    display: block !important;
+  }
+  #Bash:hover ~ #bash-terminal {
+    display: block !important;
+  }
+  #MongoDB:hover ~ #mongodb-terminal {
+    display: block !important;
+  }
+  #Linux:hover ~ #linux-terminal {
+    display: block !important;
+  }
+  #JavaScript:hover ~ #js-terminal {
+    display: block !important;
+  }
+  #React:hover ~ #react-terminal {
+    display: block !important;
+  }
+  #Solidity:hover ~ #solidity-terminal {
+    display: block !important;
+  }
+  #Bootstrap:hover ~ #bootstrap-terminal {
+    display: block !important;
+  }
+  #Plutus:hover ~ #plutus-terminal {
+    display: block !important;
+  }
+  #Haskell:hover ~ #haskell-terminal {
+    display: block !important;
+  }
 }

@@ -1,153 +1,133 @@
-@media (max-width: 480px) {
-  .Tech {
-    height: 50vh !important;
-  }
+@font-face {
+  font-family: Cyber;
+  src: url("https://assets.codepen.io/605876/Blender-Pro-Bold.otf");
+  font-display: swap;
 }
-.svg {
+.Tech text {
+  font-family: "Cyber", sans-serif;
+}
+.Tech svg {
   margin-top: 80px;
 }
-
-.svg-tech-names {
+@media (max-width: 900px) {
+  .Tech svg {
+    margin-top: 80px;
+    width: 85vw;
+    height: auto;
+  }
+}
+.Tech .svg-tech-names {
   fill: rgb(44, 50, 59);
 }
-
-.svg-tech-names:hover {
+.Tech .svg-tech-names:hover {
   cursor: pointer;
   fill: rgb(60, 207, 47);
 }
-
-.python-terminal {
+.Tech #python-terminal {
   display: none;
 }
-
-.jquery-terminal {
+.Tech #jquery-terminal {
   display: none;
 }
-
-.processing-terminal {
+.Tech #processing-terminal {
   display: none;
 }
-
-.haskell-terminal {
+.Tech #haskell-terminal {
   display: none;
 }
-
-.bash-terminal {
+.Tech #bash-terminal {
   display: none;
 }
-
-.sass-terminal {
+.Tech #sass-terminal {
   display: none;
 }
-
-.java-terminal {
+.Tech #java-terminal {
   display: none;
 }
-
-.mongodb-terminal {
+.Tech #mongodb-terminal {
   display: none;
 }
-
-.plutus-terminal {
+.Tech #postgresql-terminal {
   display: none;
 }
-
-.linux-terminal {
+.Tech #plutus-terminal {
   display: none;
 }
-
-.js-terminal {
+.Tech #linux-terminal {
   display: none;
 }
-
-.react-terminal {
+.Tech #js-terminal {
   display: none;
 }
-
-.solidity-terminal {
+.Tech #react-terminal {
   display: none;
 }
-
-.bootstrap-terminal {
+.Tech #solidity-terminal {
   display: none;
 }
-
-.html-terminal {
+.Tech #bootstrap-terminal {
   display: none;
 }
-
-.css-terminal {
+.Tech #html-terminal {
   display: none;
 }
-
-.node-terminal {
+.Tech #css-terminal {
   display: none;
 }
-
-.Node:hover ~ .node-terminal {
+.Tech #node-terminal {
+  display: none;
+}
+.Tech #PostgreSQL:hover ~ #postgresql-terminal {
   display: block !important;
 }
-
-.HTML:hover ~ .html-terminal {
+.Tech #Node:hover ~ #node-terminal {
   display: block !important;
 }
-
-.Processing:hover ~ .processing-terminal {
+.Tech #HTML:hover ~ #html-terminal {
   display: block !important;
 }
-
-.jQuery:hover ~ .jquery-terminal {
+.Tech #Processing:hover ~ #processing-terminal {
   display: block !important;
 }
-
-.Python:hover ~ .python-terminal {
+.Tech #jQuery:hover ~ #jquery-terminal {
   display: block !important;
 }
-
-.CSS:hover ~ .css-terminal {
+.Tech #Python:hover ~ #python-terminal {
   display: block !important;
 }
-
-.Sass:hover ~ .sass-terminal {
+.Tech #CSS:hover ~ #css-terminal {
   display: block !important;
 }
-
-.Java:hover ~ .java-terminal {
+.Tech #Sass:hover ~ #sass-terminal {
   display: block !important;
 }
-
-.Bash:hover ~ .bash-terminal {
+.Tech #Java:hover ~ #java-terminal {
   display: block !important;
 }
-
-.MongoDB:hover ~ .mongodb-terminal {
+.Tech #Bash:hover ~ #bash-terminal {
   display: block !important;
 }
-
-.Linux:hover ~ .linux-terminal {
+.Tech #MongoDB:hover ~ #mongodb-terminal {
   display: block !important;
 }
-
-.JavaScript:hover ~ .js-terminal {
+.Tech #Linux:hover ~ #linux-terminal {
   display: block !important;
 }
-
-.React:hover ~ .react-terminal {
+.Tech #JavaScript:hover ~ #js-terminal {
   display: block !important;
 }
-
-.Solidity:hover ~ .solidity-terminal {
+.Tech #React:hover ~ #react-terminal {
   display: block !important;
 }
-
-.Bootstrap:hover ~ .bootstrap-terminal {
+.Tech #Solidity:hover ~ #solidity-terminal {
   display: block !important;
 }
-
-.Plutus:hover ~ .plutus-terminal {
+.Tech #Bootstrap:hover ~ #bootstrap-terminal {
   display: block !important;
 }
-
-.Haskell:hover ~ .haskell-terminal {
+.Tech #Plutus:hover ~ #plutus-terminal {
+  display: block !important;
+}
+.Tech #Haskell:hover ~ #haskell-terminal {
   display: block !important;
 }/*# sourceMappingURL=tech.css.map */

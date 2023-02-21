@@ -31,12 +31,12 @@
 <g id="bio-about">
 <text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="45.25" y="120.336"> echo </tspan><tspan x="34" y="143.336">Hello world, my name is Everett De Leon. I am a mostly self taught software </tspan><tspan x="34" y="166.336">engineer. I&#x2019;ve been building computers and coding for over 5 years. After </tspan><tspan x="34" y="189.336">highschool in-between working full time i got really fasinated with coding and </tspan><tspan x="34" y="212.336">started learning how to build websites, games, full stack web applications, and </tspan><tspan x="34" y="235.336">even how to write smart contracts and interact with blockchains. Soon after i </tspan><tspan x="34" y="258.336">discovered my passion for coding i started working on my AA in computer </tspan><tspan x="34" y="281.336">science. I&#x2019;m someone who enjoys learning technical things and solving </tspan><tspan x="34" y="304.336">problems, the greater the challenge the greater the oppertunity to grow. </tspan></text>
 <text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="34" y="120.336">$</tspan></text>
-<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="98.668" y="120.336">$about&#13;&#10;</tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="98.668" y="120.336">$about</tspan></text>
 </g>
 <g id="bio-hobbies">
 <text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="45.25" y="388.336"> echo </tspan><tspan x="34" y="411.336">I love working with technology and learning new ways to build with it. My </tspan><tspan x="34" y="434.336">technical hobbies include making mods for video games, creating randomly </tspan><tspan x="34" y="457.336">generated art, coding anything that catches my attention, making NFTs, tinkering </tspan><tspan x="34" y="480.336">with hardware, playing video games, wrtiting full stack web applications, reading </tspan><tspan x="34" y="503.336">books, running my own servers, and flying drones.</tspan></text>
 <text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="34" y="388.336">$</tspan></text>
-<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="98.668" y="388.336">$hobbies&#13;&#10;</tspan></text>
+<text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="98.668" y="388.336">$hobbies</tspan></text>
 </g>
 <g id="dir3">
 <text fill="#EBE322" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="17" letter-spacing="0em"><tspan x="369.368" y="555.811">/e/Bio</tspan></text>
@@ -45,7 +45,7 @@
 <text fill="#3DD230" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="17" letter-spacing="0em"><tspan x="34" y="555.811">theforthlion@DESKTOP-3MT17I6</tspan></text>
 </g>
 <g id="last-input">
-<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="45.25" y="590.336"> _&#13;&#10;</tspan></text>
+<text fill="white" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="45.25" y="590.336"> _</tspan></text>
 <text fill="#D034D3" xml:space="preserve" style="white-space: pre" font-family="Roboto" font-size="20" letter-spacing="0em"><tspan x="34" y="590.336">$</tspan></text>
 </g>
 </g>
