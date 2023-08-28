@@ -10,7 +10,7 @@
 .Book img {
   width: 250px;
   height: auto;
-  box-shadow: 9px 9px 4px -6px hsla(0deg, 0%, 0%, 0.3);
+  box-shadow: 9px 9px 4px -6px hsla(0, 0%, 0%, 0.3);
 }
 .Book .title {
   font-size: 25px;

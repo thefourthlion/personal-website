@@ -1,0 +1,34 @@
+.BucketList {
+  min-height: 100vh;
+  padding-top: 125px;
+
+  .bucket-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .check {
+    position: relative;
+    bottom: 7px;
+    width: 25px;
+    height: 25px;
+  }
+
+  .item {
+    text-align: left;
+    font-size: 1.7rem;
+  }
+
+  .item-done {
+    text-decoration: line-through;
+  }
+
+  .add-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin: 10px 0 15px 0;
+  }
+}

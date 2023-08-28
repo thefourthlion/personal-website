@@ -23,7 +23,7 @@ body p {
   font-size: 1.5rem;
 }
 body .form-label {
-  box-shadow: 9px 9px 4px -6px hsla(0deg, 0%, 0%, 0.3);
+  box-shadow: 9px 9px 4px -6px hsla(0, 0%, 0%, 0.3);
 }
 body .form-input:focus {
   border-color: #3dd230;
@@ -35,7 +35,7 @@ body textarea {
   border-color: lightgray;
   box-shadow: none;
   outline: 0 none;
-  box-shadow: 9px 9px 4px -6px hsla(0deg, 0%, 0%, 0.3);
+  box-shadow: 9px 9px 4px -6px hsla(0, 0%, 0%, 0.3);
 }
 body textarea:focus {
   border-color: #3dd230;
@@ -55,7 +55,7 @@ body .green-outline-btn {
   background-color: rgba(255, 255, 255, 0);
 }
 body .green-outline-btn:hover {
-  box-shadow: 9px 9px 4px -6px hsla(0deg, 0%, 0%, 0.3);
+  box-shadow: 9px 9px 4px -6px hsla(0, 0%, 0%, 0.3);
   background-color: rgb(210, 207, 193);
 }
 body .red-outline-btn {
@@ -64,7 +64,7 @@ body .red-outline-btn {
   background-color: rgba(255, 255, 255, 0);
 }
 body .red-outline-btn:hover {
-  box-shadow: 9px 9px 4px -6px hsla(0deg, 0%, 0%, 0.3);
+  box-shadow: 9px 9px 4px -6px hsla(0, 0%, 0%, 0.3);
   background-color: rgb(210, 207, 193);
 }
 body .green {

@@ -11,6 +11,7 @@ import Login from "./pages/Login/Login";
 import Footer from "./components/Footer/Footer";
 import PostProject from "./pages/PostProject/PostProject";
 import ImproveForm from "./pages/ImproveForm/ImproveForm";
+import BucketList from "./pages/BucketList/BucketList";
 import BooksRead from "./pages/BooksRead/BooksRead";
 import { ReactComponent as Moon } from "./styles/images/moon.svg";
 import { ReactComponent as Sun } from "./styles/images/sun.svg";
@@ -67,6 +68,14 @@ export default function App() {
                 <div>
                   <BooksRead className={`${theme}`} />
                 </div>
+              }
+            />
+            <Route
+              path="/bucket-list"
+              element={
+                <ProtectedRoute>
+                  <BucketList className={`${theme}`} />
+                </ProtectedRoute>
               }
             />
             <Route

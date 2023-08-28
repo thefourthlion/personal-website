@@ -28,7 +28,7 @@
   border: solid 3px #3dd230;
   border-radius: 5px;
   padding: 5px;
-  box-shadow: 9px 9px 4px -6px hsla(0deg, 0%, 0%, 0.3);
+  box-shadow: 9px 9px 4px -6px hsla(0, 0%, 0%, 0.3);
 }
 .Portfolio h2 {
   margin-top: 15px;
