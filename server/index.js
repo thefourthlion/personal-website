@@ -59,3 +59,4 @@ app.use("/api/posts", require("./routes/posts"));
 app.use("/api/Contact", require("./routes/Contact"));
 app.use("/api/library", require("./routes/library"));
 app.use("/api/journal", require("./routes/journal"));
+app.use('/api/bucketlist', require('./routes/bucketlist'));

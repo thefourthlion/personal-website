@@ -1,0 +1,1 @@
+const mongoose = require("mongoose"); const bucketlistSchema = new mongoose.Schema( {item: { type: String, required: [true, "Please provide item"],  },done: { type: String, required: [true, "Please provide done"],  }, }, { timestamps: true } ); const bucketlist = mongoose.model("bucketlist", bucketlistSchema); module.exports = bucketlist;
