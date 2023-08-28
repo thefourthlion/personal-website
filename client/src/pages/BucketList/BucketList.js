@@ -7,14 +7,16 @@ const BucketList = () => {
   const [items, setItems] = useState([]);
 
   const getItems = () => {
-    Axios.get("http://localhost:3001/api/bucketlist/read").then((res) => {
-      const data = res.data;
-      setItems(data);
-    });
+    Axios.get("https://api.everettdeleon.com/api/bucketlist/read").then(
+      (res) => {
+        const data = res.data;
+        setItems(data);
+      }
+    );
   };
 
   const sendForm = () => {
-    Axios.post("http://localhost:3001/api/bucketlist/create", {
+    Axios.post("https://api.everettdeleon.com/api/bucketlist/create", {
       item: newBucketListItem,
       done: "false",
     }).then(() => {
@@ -23,7 +25,7 @@ const BucketList = () => {
   };
 
   const itemDone = (id, state) => {
-    Axios.post(`http://localhost:3001/api/bucketlist/update/${id}`, {
+    Axios.post(`https://api.everettdeleon.com/api/bucketlist/update/${id}`, {
       done: state,
     }).then(() => {
       refreshPage();
