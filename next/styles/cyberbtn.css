@@ -170,7 +170,7 @@ body .cybr-btn + .cybr-btn {
   bottom: -5%;
   right: 5%;
   font-weight: normal;
-  color: hsl(0deg, 0%, 0%);
+  color: hsl(0, 0%, 0%);
   font-size: var(--label-size);
 }
 
